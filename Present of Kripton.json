@@ -20,7 +20,7 @@
     "templateSlug": "starting-platformer-pixel",
     "version": "1.0.0",
     "name": "Present of Kripton",
-    "description": "",
+    "description": "The minigame about new member in Magatti family",
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
@@ -60,7 +60,7 @@
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "",
+      "backgroundImageResourceName": "final.png",
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0,
@@ -77,8 +77,12 @@
       "placement": "bottom-left",
       "showWatermark": true
     },
-    "authorIds": [],
-    "authorUsernames": [],
+    "authorIds": [
+      "94rVbMavZBSONS762vWwXHsTsxG3"
+    ],
+    "authorUsernames": [
+      "JorelDev"
+    ],
     "categories": [],
     "playableDevices": [],
     "extensionProperties": [],
@@ -184,7 +188,7 @@
       {
         "file": "assets/parede1.png.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/parede1.png.png\"}",
         "name": "parede1.png",
         "smoothed": false,
         "userAdded": false,
@@ -1558,6 +1562,774 @@
         "name": "Layer 1_sprite_61.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "david-profile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "david-profile.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "ObservingTheStar.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ObservingTheStar.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Path to Lake Land.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Path to Lake Land.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "song17.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "song17.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sfx100v2_air_02.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sfx100v2_air_02.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sfx100v2_air_03.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sfx100v2_air_03.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sfx100v2_air_04.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sfx100v2_air_04.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "space shield sounds - 1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "space shield sounds - 1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "space shield sounds -2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "space shield sounds -2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "FT_PLAA.WAV",
+        "kind": "audio",
+        "metadata": "",
+        "name": "FT_PLAA.WAV",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "FT_LAD.WAV",
+        "kind": "audio",
+        "metadata": "",
+        "name": "FT_LAD.WAV",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "parede1 - Copia.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"parede1 - Copia.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "parede1 - Copia.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Destruction_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Destruction_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/f7ff08efa2fa25325c285da2466355856bf0913d46ceb788537a1c87fc76629b_Nairan Dreadnought_Destruction_1.png",
+          "name": "Nairan Dreadnought_Destruction_1.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Destruction_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Destruction_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/8039e3549a3986ab51440cad57aaa8521b7d85fc77a22c13afa6681a7e3f48bd_Nairan Dreadnought_Destruction_10.png",
+          "name": "Nairan Dreadnought_Destruction_10.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Destruction_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Destruction_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/a04b506998ff0f1a975a1b18b99f05b6d1146aa0c6d617c05289e5eb2e73676c_Nairan Dreadnought_Destruction_11.png",
+          "name": "Nairan Dreadnought_Destruction_11.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Destruction_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Destruction_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/f81e2f07602a9110edac2aabd559d4982f4c08aec6cbce68468ace7136f4bd26_Nairan Dreadnought_Destruction_12.png",
+          "name": "Nairan Dreadnought_Destruction_12.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Destruction_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Destruction_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/b9c0db94d6eeaa6303808578bac94392831b0d84c7aa4d73a0d6122f8ed37eed_Nairan Dreadnought_Destruction_13.png",
+          "name": "Nairan Dreadnought_Destruction_13.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Destruction_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Destruction_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/56c0bff38652515dafd07919dd4f84b7b498f94d84331ef510065568e2c3de6f_Nairan Dreadnought_Destruction_14.png",
+          "name": "Nairan Dreadnought_Destruction_14.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Destruction_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Destruction_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/bbb338d430722960acb37cf079e6c151cf526543352af4b6fa4e1e4f6b5df2b0_Nairan Dreadnought_Destruction_15.png",
+          "name": "Nairan Dreadnought_Destruction_15.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Destruction_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Destruction_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/afcfbd095fbd0e5eec389e55da7fc6dc9760936638edcf8d4805a41088802211_Nairan Dreadnought_Destruction_16.png",
+          "name": "Nairan Dreadnought_Destruction_16.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Destruction_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Destruction_17.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/81785d7cd9384eef31a90d93a8a4d622eb68110c21c8a04281ac57dad3827ca5_Nairan Dreadnought_Destruction_17.png",
+          "name": "Nairan Dreadnought_Destruction_17.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Destruction_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Destruction_18.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/a00e75b74192d273c4d003f69d8a370ed69a8f257cc5491bd9896667df90412d_Nairan Dreadnought_Destruction_18.png",
+          "name": "Nairan Dreadnought_Destruction_18.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Destruction_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Destruction_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/fa343407cc142fbec791a98827ba5dffe4e021931728556f2115e37183abfc74_Nairan Dreadnought_Destruction_2.png",
+          "name": "Nairan Dreadnought_Destruction_2.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Destruction_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Destruction_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/d3e0cc549defbcfa47422cf64b81bdf9840e803a9d802d56adb928137db7b6d0_Nairan Dreadnought_Destruction_3.png",
+          "name": "Nairan Dreadnought_Destruction_3.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Destruction_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Destruction_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/67ad8cf0bf411ac0e148efef05704910811765288780b1e6b041a72999ec0cbc_Nairan Dreadnought_Destruction_4.png",
+          "name": "Nairan Dreadnought_Destruction_4.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Destruction_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Destruction_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/33f2dba54bfa250446804531d5a14fddbb1a292aa8b6f3404c43c03c4eedb970_Nairan Dreadnought_Destruction_5.png",
+          "name": "Nairan Dreadnought_Destruction_5.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Destruction_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Destruction_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/ec9f5c3aa45d09bb5b98c2b8bb5065328165a0d56f4de40dd4bcc6e754904130_Nairan Dreadnought_Destruction_6.png",
+          "name": "Nairan Dreadnought_Destruction_6.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Destruction_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Destruction_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/797705c0f288821e83b48c6aeea1ad3569d7a6d691c425454cc0c9e9886a7584_Nairan Dreadnought_Destruction_7.png",
+          "name": "Nairan Dreadnought_Destruction_7.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Destruction_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Destruction_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/6d71c1755c0aa0a356610baf241d1921fbca047844cc245fb4d016c9dc738138_Nairan Dreadnought_Destruction_8.png",
+          "name": "Nairan Dreadnought_Destruction_8.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Destruction_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Destruction_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/f2876e2b85e911afa252c244278f19986f196dc8259332753ffce53758f7c6ec_Nairan Dreadnought_Destruction_9.png",
+          "name": "Nairan Dreadnought_Destruction_9.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/8a33ce223c3d52cda1c656a723bee5a2bab8bbc2bee91ff6723d37a454fa4159_Nairan Dreadnought_Idle.png",
+          "name": "Nairan Dreadnought_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/f7ff08efa2fa25325c285da2466355856bf0913d46ceb788537a1c87fc76629b_Nairan Dreadnought_Weapons_1.png",
+          "name": "Nairan Dreadnought_Weapons_1.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/5d1d713d3282cea3ffcc10f89c7e76b13977d37c0d1c97f226fa31bbeeef538e_Nairan Dreadnought_Weapons_10.png",
+          "name": "Nairan Dreadnought_Weapons_10.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/5d1d713d3282cea3ffcc10f89c7e76b13977d37c0d1c97f226fa31bbeeef538e_Nairan Dreadnought_Weapons_11.png",
+          "name": "Nairan Dreadnought_Weapons_11.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/5d1d713d3282cea3ffcc10f89c7e76b13977d37c0d1c97f226fa31bbeeef538e_Nairan Dreadnought_Weapons_12.png",
+          "name": "Nairan Dreadnought_Weapons_12.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/f7ff08efa2fa25325c285da2466355856bf0913d46ceb788537a1c87fc76629b_Nairan Dreadnought_Weapons_13.png",
+          "name": "Nairan Dreadnought_Weapons_13.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/f7ff08efa2fa25325c285da2466355856bf0913d46ceb788537a1c87fc76629b_Nairan Dreadnought_Weapons_14.png",
+          "name": "Nairan Dreadnought_Weapons_14.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/5d1d713d3282cea3ffcc10f89c7e76b13977d37c0d1c97f226fa31bbeeef538e_Nairan Dreadnought_Weapons_15.png",
+          "name": "Nairan Dreadnought_Weapons_15.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/5d1d713d3282cea3ffcc10f89c7e76b13977d37c0d1c97f226fa31bbeeef538e_Nairan Dreadnought_Weapons_16.png",
+          "name": "Nairan Dreadnought_Weapons_16.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_17.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/5d1d713d3282cea3ffcc10f89c7e76b13977d37c0d1c97f226fa31bbeeef538e_Nairan Dreadnought_Weapons_17.png",
+          "name": "Nairan Dreadnought_Weapons_17.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_18.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/f7ff08efa2fa25325c285da2466355856bf0913d46ceb788537a1c87fc76629b_Nairan Dreadnought_Weapons_18.png",
+          "name": "Nairan Dreadnought_Weapons_18.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_19.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/f7ff08efa2fa25325c285da2466355856bf0913d46ceb788537a1c87fc76629b_Nairan Dreadnought_Weapons_19.png",
+          "name": "Nairan Dreadnought_Weapons_19.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/d1b0ba0ca8f3b33660139ec1a54b7ecf988b07dd0ef9922d84d2dad169432d06_Nairan Dreadnought_Weapons_2.png",
+          "name": "Nairan Dreadnought_Weapons_2.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_20.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/5d1d713d3282cea3ffcc10f89c7e76b13977d37c0d1c97f226fa31bbeeef538e_Nairan Dreadnought_Weapons_20.png",
+          "name": "Nairan Dreadnought_Weapons_20.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_21.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/5d1d713d3282cea3ffcc10f89c7e76b13977d37c0d1c97f226fa31bbeeef538e_Nairan Dreadnought_Weapons_21.png",
+          "name": "Nairan Dreadnought_Weapons_21.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_22.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/5d1d713d3282cea3ffcc10f89c7e76b13977d37c0d1c97f226fa31bbeeef538e_Nairan Dreadnought_Weapons_22.png",
+          "name": "Nairan Dreadnought_Weapons_22.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_23.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/aaed77eca33d4221bc163786dea3a4510b8a9fd90549adc1f2f5976ab253e53e_Nairan Dreadnought_Weapons_23.png",
+          "name": "Nairan Dreadnought_Weapons_23.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_24.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/aaed77eca33d4221bc163786dea3a4510b8a9fd90549adc1f2f5976ab253e53e_Nairan Dreadnought_Weapons_24.png",
+          "name": "Nairan Dreadnought_Weapons_24.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_25.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/aaed77eca33d4221bc163786dea3a4510b8a9fd90549adc1f2f5976ab253e53e_Nairan Dreadnought_Weapons_25.png",
+          "name": "Nairan Dreadnought_Weapons_25.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_26.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/aaed77eca33d4221bc163786dea3a4510b8a9fd90549adc1f2f5976ab253e53e_Nairan Dreadnought_Weapons_26.png",
+          "name": "Nairan Dreadnought_Weapons_26.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_27.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/aaed77eca33d4221bc163786dea3a4510b8a9fd90549adc1f2f5976ab253e53e_Nairan Dreadnought_Weapons_27.png",
+          "name": "Nairan Dreadnought_Weapons_27.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_28.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/aaed77eca33d4221bc163786dea3a4510b8a9fd90549adc1f2f5976ab253e53e_Nairan Dreadnought_Weapons_28.png",
+          "name": "Nairan Dreadnought_Weapons_28.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_29.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/aaed77eca33d4221bc163786dea3a4510b8a9fd90549adc1f2f5976ab253e53e_Nairan Dreadnought_Weapons_29.png",
+          "name": "Nairan Dreadnought_Weapons_29.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/bcd929d78f3b25f2991504aaff973814516a7982a4eb567d1a9a9b51ee753b47_Nairan Dreadnought_Weapons_3.png",
+          "name": "Nairan Dreadnought_Weapons_3.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_30.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/aaed77eca33d4221bc163786dea3a4510b8a9fd90549adc1f2f5976ab253e53e_Nairan Dreadnought_Weapons_30.png",
+          "name": "Nairan Dreadnought_Weapons_30.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_31.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/aaed77eca33d4221bc163786dea3a4510b8a9fd90549adc1f2f5976ab253e53e_Nairan Dreadnought_Weapons_31.png",
+          "name": "Nairan Dreadnought_Weapons_31.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/aaed77eca33d4221bc163786dea3a4510b8a9fd90549adc1f2f5976ab253e53e_Nairan Dreadnought_Weapons_32.png",
+          "name": "Nairan Dreadnought_Weapons_32.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_33.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/aaed77eca33d4221bc163786dea3a4510b8a9fd90549adc1f2f5976ab253e53e_Nairan Dreadnought_Weapons_33.png",
+          "name": "Nairan Dreadnought_Weapons_33.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_34.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/aaed77eca33d4221bc163786dea3a4510b8a9fd90549adc1f2f5976ab253e53e_Nairan Dreadnought_Weapons_34.png",
+          "name": "Nairan Dreadnought_Weapons_34.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/f1aa2776ecef74052ff62a072b81f7641cfd8401e796fd2d9eb7ee426c23923b_Nairan Dreadnought_Weapons_4.png",
+          "name": "Nairan Dreadnought_Weapons_4.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/fc6e1f3a56e62985c5cf42fa2ec4e65eb164ea2823c24ced17dd3ec1d748061f_Nairan Dreadnought_Weapons_5.png",
+          "name": "Nairan Dreadnought_Weapons_5.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/5d1d713d3282cea3ffcc10f89c7e76b13977d37c0d1c97f226fa31bbeeef538e_Nairan Dreadnought_Weapons_6.png",
+          "name": "Nairan Dreadnought_Weapons_6.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/5d1d713d3282cea3ffcc10f89c7e76b13977d37c0d1c97f226fa31bbeeef538e_Nairan Dreadnought_Weapons_7.png",
+          "name": "Nairan Dreadnought_Weapons_7.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/f7ff08efa2fa25325c285da2466355856bf0913d46ceb788537a1c87fc76629b_Nairan Dreadnought_Weapons_8.png",
+          "name": "Nairan Dreadnought_Weapons_8.png"
+        }
+      },
+      {
+        "file": "assets/Nairan Dreadnought_Weapons_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nairan Dreadnought_Weapons_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nairan Fleet/Ship/f7ff08efa2fa25325c285da2466355856bf0913d46ceb788537a1c87fc76629b_Nairan Dreadnought_Weapons_9.png",
+          "name": "Nairan Dreadnought_Weapons_9.png"
+        }
+      },
+      {
+        "file": "dialog-box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dialog-box.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Layer 1_sprite_62.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer 1_sprite_62.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2785,7 +3557,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9296874999999997,
+        "zoomFactor": 0.899360758366662,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3466,6 +4238,33 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "ObservingTheStar.ogg",
+                "yes",
+                "50",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -3569,11 +4368,17 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6244537826600132,
+        "zoomFactor": 0.7876290101673943,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "pulando",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -3756,7 +4561,7 @@
           "width": 1359,
           "x": -14,
           "y": 97,
-          "zOrder": -5,
+          "zOrder": -7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4043,8 +4848,8 @@
           "name": "door",
           "persistentUuid": "3a52adf9-5d12-40b6-920d-e54724584ea4",
           "width": 109,
-          "x": 6664,
-          "y": 506,
+          "x": 6658,
+          "y": 507,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -4060,7 +4865,7 @@
           "name": "preset",
           "persistentUuid": "ba040593-8093-4f23-9996-9f676a03cd29",
           "width": 48,
-          "x": 286,
+          "x": 183,
           "y": 654,
           "zOrder": 9,
           "numberProperties": [],
@@ -4094,8 +4899,8 @@
           "name": "JorEl",
           "persistentUuid": "40429a25-484e-4504-a5ed-b8943ba09343",
           "width": 214,
-          "x": 97,
-          "y": 528,
+          "x": -84,
+          "y": 552,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -4139,15 +4944,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 71,
+          "height": 81,
           "keepRatio": true,
           "layer": "",
-          "name": "NewText",
+          "name": "mensagem1",
           "persistentUuid": "9f1fbaa1-f2be-447b-8fa5-1153368352ca",
-          "width": 411,
-          "x": 31,
-          "y": 806,
-          "zOrder": 25,
+          "width": 221,
+          "x": 275,
+          "y": 564,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4281,6 +5086,57 @@
           "x": 7385,
           "y": 443,
           "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 476,
+          "keepRatio": true,
+          "layer": "",
+          "name": "blocoD",
+          "persistentUuid": "5f7a9d5a-5c16-4ab9-a298-f008aa4498f6",
+          "width": 89,
+          "x": 6705,
+          "y": 287,
+          "zOrder": -6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 111,
+          "keepRatio": true,
+          "layer": "",
+          "name": "dialogmensagem1",
+          "persistentUuid": "ac80f961-e954-49a4-82cf-4a2950202b08",
+          "width": 254,
+          "x": 257,
+          "y": 509,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 308,
+          "keepRatio": true,
+          "layer": "",
+          "name": "colisionaMessage1",
+          "persistentUuid": "39c5bf97-9941-4ee3-86fe-ed7a31eb90cd",
+          "width": 303,
+          "x": 331,
+          "y": 522,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4687,29 +5543,7 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "Physics2",
-              "type": "Physics2::Physics2Behavior",
-              "bodyType": "Static",
-              "bullet": false,
-              "fixedRotation": false,
-              "canSleep": true,
-              "shape": "Box",
-              "shapeDimensionA": 0,
-              "shapeDimensionB": 0,
-              "shapeOffsetX": 0,
-              "shapeOffsetY": 0,
-              "polygonOrigin": "Center",
-              "vertices": [],
-              "density": 1,
-              "friction": 0.3,
-              "restitution": 0.1,
-              "linearDamping": 0.1,
-              "angularDamping": 0.1,
-              "gravityScale": 1,
-              "layers": 1,
-              "masks": 1
-            },
-            {
+              "isFolded": true,
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": false,
@@ -4741,7 +5575,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "Platform_VerticalInvert",
-          "texture": "parede1.png",
+          "texture": "parede1 - Copia.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -4879,6 +5713,13 @@
             {
               "name": "LightObstacleBehavior",
               "type": "Lighting::LightObstacleBehavior"
+            },
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
             }
           ],
           "animations": [
@@ -6295,7 +7136,7 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "NewText",
+          "name": "mensagem1",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
@@ -6305,7 +7146,7 @@
           "string": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
           "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 12,
           "color": {
             "b": 248,
             "g": 248,
@@ -6329,7 +7170,7 @@
             "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "center",
-            "characterSize": 20,
+            "characterSize": 12,
             "color": "248;248;248"
           }
         },
@@ -6360,6 +7201,2063 @@
             "debugMode": false,
             "texture": ""
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "50a35c886e815f47e38aefbe760218c996e7d840b95c4b49241ef0ba0f9a318c",
+          "name": "NairanDreadnought",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Idle.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Destruction",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.0625,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Destruction_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Destruction_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Destruction_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Destruction_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Destruction_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Destruction_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Destruction_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Destruction_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Destruction_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Destruction_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Destruction_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Destruction_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Destruction_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Destruction_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Destruction_15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Destruction_16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Destruction_17.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Destruction_18.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.0417,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_17.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_18.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_19.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_20.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_21.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_22.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_23.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_24.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_25.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_26.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_27.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_28.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_29.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_30.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_31.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_32.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_33.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nairan Dreadnought_Weapons_34.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 13
+                          },
+                          {
+                            "x": 98,
+                            "y": 111
+                          },
+                          {
+                            "x": 30,
+                            "y": 111
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "dialogmensagem1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "dialog-box.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 5
+                          },
+                          {
+                            "x": 313,
+                            "y": 5
+                          },
+                          {
+                            "x": 313,
+                            "y": 85
+                          },
+                          {
+                            "x": 4,
+                            "y": 85
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "colisionaMessage1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Layer 1_sprite_61.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6381,7 +9279,13 @@
             "objectName": "Platform_VerticalInvert"
           },
           {
-            "objectName": "NewText"
+            "objectName": "mensagem1"
+          },
+          {
+            "objectName": "dialogmensagem1"
+          },
+          {
+            "objectName": "colisionaMessage1"
           },
           {
             "objectName": "lightExtension"
@@ -6426,6 +9330,9 @@
           },
           {
             "objectName": "StarShip"
+          },
+          {
+            "objectName": "NairanDreadnought"
           }
         ]
       },
@@ -6804,7 +9711,7 @@
               },
               "parameters": [
                 "preset",
-                "1",
+                "3",
                 "0",
                 "1"
               ]
@@ -6870,6 +9777,305 @@
               },
               "parameters": [
                 "preset"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Path to Lake Land.ogg",
+                "",
+                "50",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "door",
+                "Animation",
+                "=",
+                "\"Open Gate\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "SoundPlaying"
+              },
+              "parameters": [
+                "",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sfx100v2_air_04.ogg",
+                "3",
+                "40",
+                "40",
+                "0.2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "preset",
+                "JorEl",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "SoundPlaying"
+              },
+              "parameters": [
+                "",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "space shield sounds -2.wav",
+                "4",
+                "",
+                "40",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "JorEl",
+                "Animation",
+                "=",
+                "\"Andando Direito\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "SoundPlaying"
+              },
+              "parameters": [
+                "",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "FT_PLAA.WAV",
+                "5",
+                "",
+                "50",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsJumping"
+              },
+              "parameters": [
+                "JorEl",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pulando",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "JorEl",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "pulando",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "FT_LAD.WAV",
+                "6",
+                "",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pulando",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "colisionaMessage1",
+                "preset",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "mensagem1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "dialogmensagem1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "colisionaMessage1",
+                "preset",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "mensagem1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialogmensagem1",
+                ""
               ]
             }
           ]
@@ -7093,7 +10299,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9296874999999997,
+        "zoomFactor": 0.8700232859857291,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7143,8 +10349,8 @@
           "name": "exit",
           "persistentUuid": "01135cb4-c1ed-4f7b-ab71-e52078a1c15a",
           "width": 610,
-          "x": 331,
-          "y": 655,
+          "x": 308,
+          "y": 659,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -7159,8 +10365,8 @@
           "name": "jorel_profile",
           "persistentUuid": "69c8654e-e00f-47c2-b21f-47f9101dad5d",
           "width": 0,
-          "x": 28,
-          "y": 639,
+          "x": 14,
+          "y": 646,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -7244,6 +10450,23 @@
           "x": 44,
           "y": 274,
           "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 70,
+          "keepRatio": true,
+          "layer": "",
+          "name": "david_profile2",
+          "persistentUuid": "18eb887e-74e3-429e-97f0-45664db98eee",
+          "width": 257,
+          "x": 211,
+          "y": 644,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7927,6 +11150,77 @@
             "characterSize": 28,
             "color": "239;240;243"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "david_profile2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "david-profile.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 280,
+                            "y": 0
+                          },
+                          {
+                            "x": 280,
+                            "y": 78
+                          },
+                          {
+                            "x": 0,
+                            "y": 78
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -7943,6 +11237,9 @@
           },
           {
             "objectName": "jorel_profile"
+          },
+          {
+            "objectName": "david_profile2"
           },
           {
             "objectName": "finalFrase1"
@@ -8004,7 +11301,7 @@
                 "value": "LaunchFile"
               },
               "parameters": [
-                "https://www.instagram.com/jorel_magatti/",
+                "\"https://www.instagram.com/jorel_magatti/\"",
                 ""
               ]
             }
@@ -8071,6 +11368,59 @@
                 "Animation",
                 "=",
                 "\"surprise\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "song17.mp3",
+                "",
+                "70",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "david_profile2",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "LaunchFile"
+              },
+              "parameters": [
+                "\"https://www.instagram.com/david_xd_xp/\"",
+                ""
               ]
             }
           ]

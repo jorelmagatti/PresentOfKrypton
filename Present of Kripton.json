@@ -12,7 +12,7 @@
     "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "landscape",
-    "packageName": "com.example.gamename",
+    "packageName": "com.joreldev.presentOfKrypton",
     "pixelsRounding": false,
     "projectUuid": "e32a0c8a-f4d4-46a4-accf-1a00bba49a73",
     "scaleMode": "nearest",
@@ -21,7 +21,7 @@
     "version": "1.0.0",
     "name": "Present of Kripton",
     "description": "The minigame about new member in Magatti family",
-    "author": "",
+    "author": "Jorel Magatti",
     "windowWidth": 1280,
     "windowHeight": 720,
     "latestCompilationDirectory": "",
@@ -29,33 +29,33 @@
     "minFPS": 20,
     "verticalSync": false,
     "platformSpecificAssets": {
-      "android-icon-144": "",
-      "android-icon-192": "",
-      "android-icon-36": "",
-      "android-icon-48": "",
-      "android-icon-72": "",
-      "android-icon-96": "",
-      "android-windowSplashScreenAnimatedIcon": "",
-      "desktop-icon-512": "",
-      "ios-icon-100": "",
-      "ios-icon-1024": "",
-      "ios-icon-114": "",
-      "ios-icon-120": "",
-      "ios-icon-144": "",
-      "ios-icon-152": "",
-      "ios-icon-167": "",
-      "ios-icon-180": "",
-      "ios-icon-20": "",
-      "ios-icon-29": "",
-      "ios-icon-40": "",
-      "ios-icon-50": "",
-      "ios-icon-57": "",
-      "ios-icon-58": "",
-      "ios-icon-60": "",
-      "ios-icon-72": "",
-      "ios-icon-76": "",
-      "ios-icon-80": "",
-      "ios-icon-87": ""
+      "android-icon-144": "icon144.png",
+      "android-icon-192": "icon192.png",
+      "android-icon-36": "icon36.png",
+      "android-icon-48": "icon48.png",
+      "android-icon-72": "icon72.png",
+      "android-icon-96": "icon96.png",
+      "android-windowSplashScreenAnimatedIcon": "icon513.png",
+      "desktop-icon-512": "icon512.png",
+      "ios-icon-100": "icon-113.png",
+      "ios-icon-1024": "icon-1024.png",
+      "ios-icon-114": "icon-114.png",
+      "ios-icon-120": "icon-120.png",
+      "ios-icon-144": "icon-144.png",
+      "ios-icon-152": "icon-152.png",
+      "ios-icon-167": "icon-167.png",
+      "ios-icon-180": "icon-180.png",
+      "ios-icon-20": "icon16.png",
+      "ios-icon-29": "icon32.png",
+      "ios-icon-40": "icon-40.png",
+      "ios-icon-50": "icon48 (1).png",
+      "ios-icon-57": "icon-57.png",
+      "ios-icon-58": "icon-58.png",
+      "ios-icon-60": "icon-60.png",
+      "ios-icon-72": "icon-72.png",
+      "ios-icon-76": "icon-76.png",
+      "ios-icon-80": "icon-80.png",
+      "ios-icon-87": "icon-87.png"
     },
     "loadingScreen": {
       "backgroundColor": 0,
@@ -2330,6 +2330,295 @@
         "name": "Layer 1_sprite_62.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "icon512.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon512.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon513.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon513.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon192.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon192.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon144.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon96.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon96.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon72.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon48.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon36.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon-1024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon-1024.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon-180.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon-180.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon-167.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon-167.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon-152.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon-152.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon-144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon-144.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon-120.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon-120.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon-114.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon-114.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon-113.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon-113.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon-87.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon-87.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon-80.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon-80.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon-76.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon-76.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon-72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon-72.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon-60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon-60.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon-58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon-58.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon-57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon-57.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon48 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon48 (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon-40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon-40.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon32.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "final2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "final2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon514.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon514.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Transparent Button With White Blue Border_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Blue Border_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6d8e529f898d0d1cfc8e94ba10ae0a01e0a31b08bc0d11ec35074a34f3485f55_Transparent Button With White Blue Border_Hovered.png",
+          "name": "Transparent Button With White Blue Border_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Transparent Button With White Blue Border_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Blue Border_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7311d88d62c25c9a5e7ed4f2031f4d58fabe564e093b203e62e467a1a995ed32_Transparent Button With White Blue Border_Idle.png",
+          "name": "Transparent Button With White Blue Border_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Transparent Button With White Blue Border_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Blue Border_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c18e2e342a2cce350f068208df2b7f5549dc600d2201609b1d3d76c497fffd30_Transparent Button With White Blue Border_Pressed.png",
+          "name": "Transparent Button With White Blue Border_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Kenney Mini Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Kenney Mini Square.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
+          "name": "Kenney Mini Square.ttf"
+        }
+      },
+      {
+        "file": "Rise of spirit.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Rise of spirit.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4209,7 +4498,7 @@
               },
               "parameters": [
                 "",
-                "\"Game Scene\""
+                "\"Game Pre Scene\""
               ]
             }
           ]
@@ -5715,10 +6004,10 @@
               "type": "Lighting::LightObstacleBehavior"
             },
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -9926,7 +10215,7 @@
                 "FT_PLAA.WAV",
                 "5",
                 "",
-                "50",
+                "35",
                 ""
               ]
             }
@@ -11509,6 +11798,560 @@
         {
           "name": "PhysicsCar",
           "type": "PhysicsCar::PhysicsCar"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Game_32Pre_32Scene",
+      "name": "Game Pre Scene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 748,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "fdd1ca4d-9668-435f-98df-8b8613ae244b",
+          "width": 1304,
+          "x": -13,
+          "y": -10,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 144,
+          "keepRatio": true,
+          "layer": "",
+          "name": "present",
+          "persistentUuid": "4406eda3-c7fd-4419-903e-f4a3bd96d3f9",
+          "width": 148,
+          "x": 542,
+          "y": 192,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 79,
+          "keepRatio": true,
+          "layer": "",
+          "name": "frase",
+          "persistentUuid": "d8dbbd32-ff6f-49ca-964b-5f202bc71f5b",
+          "width": 1014,
+          "x": 128,
+          "y": 387,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Iniciar",
+          "persistentUuid": "aa44b57f-f4c7-4169-9bda-abcba814e129",
+          "width": 315,
+          "x": 446,
+          "y": 583,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "objetivo",
+          "persistentUuid": "78b4c4d1-5270-4481-bf68-12add98fdf08",
+          "width": 0,
+          "x": 145,
+          "y": 509,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "final2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2816,
+                            "y": 0
+                          },
+                          {
+                            "x": 2816,
+                            "y": 1536
+                          },
+                          {
+                            "x": 0,
+                            "y": 1536
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "present",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "icon514.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 57,
+                            "y": 13
+                          },
+                          {
+                            "x": 457,
+                            "y": 13
+                          },
+                          {
+                            "x": 457,
+                            "y": 512
+                          },
+                          {
+                            "x": 57,
+                            "y": 512
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "frase",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Hoje, o tempo não é sobre o que deixamos para trás, mas sobre tudo o que está por vir. Você está a caminho de um lugar onde poderá crescer livremente. Um lugar que não espera nada de você, mas que irá se transformar porque você estará lá",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Hoje, o tempo não é sobre o que deixamos para trás, mas sobre tudo o que está por vir. Você está a caminho de um lugar onde poderá crescer livremente. Um lugar que não espera nada de você, mas que irá se transformar porque você estará lá",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
+          "name": "Iniciar",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 6,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Iniciar",
+              "font": "Kenney Mini Square.ttf",
+              "textAlignment": "center",
+              "characterSize": 45,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Iniciar",
+                "font": "Kenney Mini Square.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 45,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "objetivo",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Objetivo: Acione a capsula até a nave para lançamento",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 25,
+          "color": {
+            "b": 171,
+            "g": 216,
+            "r": 206
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Objetivo: Acione a capsula até a nave para lançamento",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 25,
+            "color": "206;216;171"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Background"
+          },
+          {
+            "objectName": "frase"
+          },
+          {
+            "objectName": "objetivo"
+          },
+          {
+            "objectName": "Iniciar"
+          },
+          {
+            "objectName": "present"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "Iniciar",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Game Scene\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Rise of spirit.ogg",
+                "no",
+                "30",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
         },
         {
           "name": "Resizable",

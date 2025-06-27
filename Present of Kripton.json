@@ -4657,7 +4657,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7876290101673943,
+        "zoomFactor": 0.6897782140104661,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5422,9 +5422,9 @@
           "layer": "",
           "name": "colisionaMessage1",
           "persistentUuid": "39c5bf97-9941-4ee3-86fe-ed7a31eb90cd",
-          "width": 303,
-          "x": 331,
-          "y": 522,
+          "width": 352,
+          "x": 226,
+          "y": 531,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -10305,8 +10305,8 @@
                 "value": "CollisionNP"
               },
               "parameters": [
+                "JorEl",
                 "colisionaMessage1",
-                "preset",
                 "",
                 "",
                 ""
@@ -10341,7 +10341,7 @@
               },
               "parameters": [
                 "colisionaMessage1",
-                "preset",
+                "JorEl",
                 "",
                 "",
                 ""
@@ -10364,6 +10364,18 @@
               },
               "parameters": [
                 "dialogmensagem1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "mensagem1",
+                "",
+                "",
                 ""
               ]
             }
@@ -10604,7 +10616,7 @@
           "name": "tela_final",
           "persistentUuid": "e4a9e7d5-35db-45e2-a86c-432cdfc2ff5b",
           "width": 1319,
-          "x": -16,
+          "x": -19,
           "y": -15,
           "zOrder": 1,
           "numberProperties": [],
@@ -10687,9 +10699,9 @@
           "name": "finalFrase2",
           "persistentUuid": "4c276802-6e3d-4f98-b2a4-8abd45239bc0",
           "width": 0,
-          "x": 98,
+          "x": 91,
           "y": 334,
-          "zOrder": 6,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10703,9 +10715,9 @@
           "name": "finalFrase3",
           "persistentUuid": "7295d7ac-87ab-4b25-be95-e3227e1e0504",
           "width": 0,
-          "x": 86,
-          "y": 470,
-          "zOrder": 7,
+          "x": 83,
+          "y": 425,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10736,8 +10748,8 @@
           "name": "Surprise",
           "persistentUuid": "2478ab48-4023-4da2-82cf-18060cdf9e1b",
           "width": 392,
-          "x": 44,
-          "y": 274,
+          "x": 32,
+          "y": 214,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -10756,6 +10768,23 @@
           "x": 211,
           "y": 644,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 89,
+          "keepRatio": true,
+          "layer": "",
+          "name": "finalFrase5",
+          "persistentUuid": "872b5d8a-f1a7-4a51-89fc-91062d8a3ccd",
+          "width": 403,
+          "x": 24,
+          "y": 514,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11510,6 +11539,48 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "finalFrase5",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": " E com ele, começa uma nova história",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 28,
+          "color": {
+            "b": 243,
+            "g": 240,
+            "r": 239
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": " E com ele, começa uma nova história",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 28,
+            "color": "239;240;243"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -11541,6 +11612,9 @@
           },
           {
             "objectName": "finalFrase3"
+          },
+          {
+            "objectName": "finalFrase5"
           }
         ]
       },
@@ -11620,6 +11694,14 @@
               "parameters": [
                 "finalFrase3"
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "finalFrase5"
+              ]
             }
           ]
         },
@@ -11658,6 +11740,15 @@
                 "=",
                 "\"surprise\""
               ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "finalFrase5",
+                ""
+              ]
             }
           ]
         },
@@ -11682,7 +11773,7 @@
                 "",
                 "song17.mp3",
                 "",
-                "70",
+                "55",
                 ""
               ]
             }

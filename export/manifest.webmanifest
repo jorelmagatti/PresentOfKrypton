@@ -1,0 +1,12 @@
+{
+  "name": "Present of Kripton",
+  "short_name": "Present of Kripton",
+  "id": "com.example.gamename",
+  "description": "",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}

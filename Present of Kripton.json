@@ -2330,6 +2330,14 @@
         "name": "Layer 1_sprite_62.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/jorelWalk4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\jorelWalk4.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4381,7 +4389,7 @@
         {
           "name": "velocidadeOpacidade",
           "type": "number",
-          "value": 5
+          "value": 2
         }
       ],
       "instances": [
@@ -7034,7 +7042,7 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.12,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -7111,6 +7119,42 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "jorelWalk3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 46,
+                            "y": 32
+                          },
+                          {
+                            "x": 85,
+                            "y": 32
+                          },
+                          {
+                            "x": 85,
+                            "y": 112
+                          },
+                          {
+                            "x": 46,
+                            "y": 112
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\jorelWalk4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",

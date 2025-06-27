@@ -4657,7 +4657,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6897782140104661,
+        "zoomFactor": 1.2121641972173958,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10305,7 +10305,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "JorEl",
+                "preset",
                 "colisionaMessage1",
                 "",
                 "",
@@ -10341,7 +10341,7 @@
               },
               "parameters": [
                 "colisionaMessage1",
-                "JorEl",
+                "preset",
                 "",
                 "",
                 ""

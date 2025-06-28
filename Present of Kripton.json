@@ -24,7 +24,7 @@
     "author": "Jorel Magatti",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "D:\\PROJETOS\\PresentOfKrypton\\export",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -4707,7 +4707,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8700232859857541,
+        "zoomFactor": 0.7619362677197821,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4733,8 +4733,8 @@
           "name": "Joystick",
           "persistentUuid": "855d809a-f954-4072-86d5-1d6f0b24a066",
           "width": 0,
-          "x": 125,
-          "y": 561,
+          "x": 122,
+          "y": 564,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -7257,6 +7257,17 @@
           "variables": [],
           "effects": [],
           "behaviors": [
+            {
+              "isFolded": true,
+              "name": "PlatformerGamepadMapper",
+              "type": "Gamepads::PlatformerGamepadMapper",
+              "PlatformerCharacter": "PlatformerObject",
+              "GamepadIdentifier": 1,
+              "UseArrows": true,
+              "UseLeftStick": true,
+              "UseRightStick": false,
+              "JumpButton": "A or Cross"
+            },
             {
               "isFolded": true,
               "name": "PlatformerObject",
@@ -12611,6 +12622,114 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsPressed"
+              },
+              "parameters": [
+                "JumpButton",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateControl"
+              },
+              "parameters": [
+                "JorEl",
+                "PlatformerObject",
+                "\"Jump\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
+              },
+              "parameters": [
+                "Joystick",
+                "\"Up\"",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateControl"
+              },
+              "parameters": [
+                "JorEl",
+                "PlatformerObject",
+                "\"Jump\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
+              },
+              "parameters": [
+                "Joystick",
+                "\"Left\"",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateControl"
+              },
+              "parameters": [
+                "JorEl",
+                "PlatformerObject",
+                "\"Left\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
+              },
+              "parameters": [
+                "Joystick",
+                "\"Right\"",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateControl"
+              },
+              "parameters": [
+                "JorEl",
+                "PlatformerObject",
+                "\"Right\""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -12780,6 +12899,10 @@
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerGamepadMapper",
+          "type": "Gamepads::PlatformerGamepadMapper"
         },
         {
           "name": "PlatformerMultitouchMapper",

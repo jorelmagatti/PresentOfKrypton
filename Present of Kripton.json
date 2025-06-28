@@ -2669,6 +2669,16 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "slippy.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "slippy.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4707,7 +4717,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7619362677197821,
+        "zoomFactor": 1.0615714305220283,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5209,8 +5219,8 @@
           "name": "preset",
           "persistentUuid": "ba040593-8093-4f23-9996-9f676a03cd29",
           "width": 48,
-          "x": 6219,
-          "y": 632,
+          "x": 42,
+          "y": 630,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -5243,9 +5253,9 @@
           "name": "JorEl",
           "persistentUuid": "40429a25-484e-4504-a5ed-b8943ba09343",
           "width": 214,
-          "x": 6023,
-          "y": 519,
-          "zOrder": 11,
+          "x": -75,
+          "y": 415,
+          "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5699,8 +5709,8 @@
           "name": "colisionaMessage2",
           "persistentUuid": "ef173903-9572-4811-b190-783a0fb58b0e",
           "width": 426,
-          "x": 1546,
-          "y": 389,
+          "x": 1587,
+          "y": 383,
           "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],

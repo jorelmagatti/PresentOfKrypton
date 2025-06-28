@@ -16,6 +16,10 @@ gdjs.Game_32FinalCode.GDfinalFrase3Objects1= [];
 gdjs.Game_32FinalCode.GDfinalFrase3Objects2= [];
 gdjs.Game_32FinalCode.GDfinalFrase4Objects1= [];
 gdjs.Game_32FinalCode.GDfinalFrase4Objects2= [];
+gdjs.Game_32FinalCode.GDdavid_9595profile2Objects1= [];
+gdjs.Game_32FinalCode.GDdavid_9595profile2Objects2= [];
+gdjs.Game_32FinalCode.GDfinalFrase5Objects1= [];
+gdjs.Game_32FinalCode.GDfinalFrase5Objects2= [];
 gdjs.Game_32FinalCode.GDSurpriseObjects1= [];
 gdjs.Game_32FinalCode.GDSurpriseObjects2= [];
 
@@ -62,7 +66,7 @@ for (var i = 0, k = 0, l = gdjs.Game_32FinalCode.GDjorel_9595profileObjects1.len
 }
 gdjs.Game_32FinalCode.GDjorel_9595profileObjects1.length = k;
 if (isConditionTrue_0) {
-{gdjs.evtTools.window.openURL("", runtimeScene);
+{gdjs.evtTools.window.openURL("https://www.instagram.com/jorel_magatti/", runtimeScene);
 }}
 
 }
@@ -78,8 +82,12 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.physics2.areObjectsColliding(gdjs.Game_32FinalCode.mapOfGDgdjs_9546Game_959532FinalCode_9546GDpresentObjects1Objects, "Physics2", gdjs.Game_32FinalCode.mapOfGDgdjs_9546Game_959532FinalCode_9546GDexitObjects1Objects, true);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("finalFrase3"), gdjs.Game_32FinalCode.GDfinalFrase3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("finalFrase5"), gdjs.Game_32FinalCode.GDfinalFrase5Objects1);
 {for(var i = 0, len = gdjs.Game_32FinalCode.GDfinalFrase3Objects1.length ;i < len;++i) {
     gdjs.Game_32FinalCode.GDfinalFrase3Objects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.Game_32FinalCode.GDfinalFrase5Objects1.length ;i < len;++i) {
+    gdjs.Game_32FinalCode.GDfinalFrase5Objects1[i].hide();
 }
 }}
 
@@ -97,12 +105,50 @@ isConditionTrue_0 = gdjs.physics2.areObjectsColliding(gdjs.Game_32FinalCode.mapO
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Surprise"), gdjs.Game_32FinalCode.GDSurpriseObjects1);
 gdjs.copyArray(runtimeScene.getObjects("finalFrase3"), gdjs.Game_32FinalCode.GDfinalFrase3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("finalFrase5"), gdjs.Game_32FinalCode.GDfinalFrase5Objects1);
 {for(var i = 0, len = gdjs.Game_32FinalCode.GDfinalFrase3Objects1.length ;i < len;++i) {
     gdjs.Game_32FinalCode.GDfinalFrase3Objects1[i].hide(false);
 }
 }{for(var i = 0, len = gdjs.Game_32FinalCode.GDSurpriseObjects1.length ;i < len;++i) {
     gdjs.Game_32FinalCode.GDSurpriseObjects1[i].getBehavior("Animation").setAnimationName("surprise");
 }
+}{for(var i = 0, len = gdjs.Game_32FinalCode.GDfinalFrase5Objects1.length ;i < len;++i) {
+    gdjs.Game_32FinalCode.GDfinalFrase5Objects1[i].hide(false);
+}
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playMusic(runtimeScene, "song17.mp3", false, 55, 1);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("david_profile2"), gdjs.Game_32FinalCode.GDdavid_9595profile2Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Game_32FinalCode.GDdavid_9595profile2Objects1.length;i<l;++i) {
+    if ( gdjs.Game_32FinalCode.GDdavid_9595profile2Objects1[i].getBehavior("ButtonFSM").IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.Game_32FinalCode.GDdavid_9595profile2Objects1[k] = gdjs.Game_32FinalCode.GDdavid_9595profile2Objects1[i];
+        ++k;
+    }
+}
+gdjs.Game_32FinalCode.GDdavid_9595profile2Objects1.length = k;
+if (isConditionTrue_0) {
+{gdjs.evtTools.window.openURL("https://www.instagram.com/david_xd_xp/", runtimeScene);
 }}
 
 }
@@ -129,6 +175,10 @@ gdjs.Game_32FinalCode.GDfinalFrase3Objects1.length = 0;
 gdjs.Game_32FinalCode.GDfinalFrase3Objects2.length = 0;
 gdjs.Game_32FinalCode.GDfinalFrase4Objects1.length = 0;
 gdjs.Game_32FinalCode.GDfinalFrase4Objects2.length = 0;
+gdjs.Game_32FinalCode.GDdavid_9595profile2Objects1.length = 0;
+gdjs.Game_32FinalCode.GDdavid_9595profile2Objects2.length = 0;
+gdjs.Game_32FinalCode.GDfinalFrase5Objects1.length = 0;
+gdjs.Game_32FinalCode.GDfinalFrase5Objects2.length = 0;
 gdjs.Game_32FinalCode.GDSurpriseObjects1.length = 0;
 gdjs.Game_32FinalCode.GDSurpriseObjects2.length = 0;
 
@@ -149,6 +199,10 @@ gdjs.Game_32FinalCode.GDfinalFrase3Objects1.length = 0;
 gdjs.Game_32FinalCode.GDfinalFrase3Objects2.length = 0;
 gdjs.Game_32FinalCode.GDfinalFrase4Objects1.length = 0;
 gdjs.Game_32FinalCode.GDfinalFrase4Objects2.length = 0;
+gdjs.Game_32FinalCode.GDdavid_9595profile2Objects1.length = 0;
+gdjs.Game_32FinalCode.GDdavid_9595profile2Objects2.length = 0;
+gdjs.Game_32FinalCode.GDfinalFrase5Objects1.length = 0;
+gdjs.Game_32FinalCode.GDfinalFrase5Objects2.length = 0;
 gdjs.Game_32FinalCode.GDSurpriseObjects1.length = 0;
 gdjs.Game_32FinalCode.GDSurpriseObjects2.length = 0;
 

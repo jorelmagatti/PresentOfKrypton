@@ -27,7 +27,7 @@ for (var i = 0, k = 0, l = gdjs.Game_32_32MenuCode.GDStartEventObjects1.length;i
 }
 gdjs.Game_32_32MenuCode.GDStartEventObjects1.length = k;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Game Scene");
+{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Game Pre Scene");
 }}
 
 }
@@ -49,6 +49,19 @@ for (var i = 0, k = 0, l = gdjs.Game_32_32MenuCode.GDExitEventObjects1.length;i<
 gdjs.Game_32_32MenuCode.GDExitEventObjects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.stopGame(runtimeScene);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playMusic(runtimeScene, "ObservingTheStar.ogg", true, 50, 1);
 }}
 
 }

@@ -1890,7 +1890,7 @@ gdjs.evtsExt__PhysicsCar__PhysicsCar.PhysicsCar.prototype.InertiaContext = {};
 gdjs.evtsExt__PhysicsCar__PhysicsCar.PhysicsCar.prototype.InertiaContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PhysicsCar__PhysicsCar.PhysicsCar.prototype.InertiaContext.userFunc0x10995f8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PhysicsCar__PhysicsCar.PhysicsCar.prototype.InertiaContext.userFunc0x10dfa98 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 // TODO Remove this function when the engine uses pixels instead of meters.
 
@@ -1915,7 +1915,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Physics
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__PhysicsCar__PhysicsCar.PhysicsCar.prototype.InertiaContext.GDObjectObjects1);
-gdjs.evtsExt__PhysicsCar__PhysicsCar.PhysicsCar.prototype.InertiaContext.userFunc0x10995f8(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__PhysicsCar__PhysicsCar.PhysicsCar.prototype.InertiaContext.userFunc0x10dfa98(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -2034,7 +2034,7 @@ eventsFunctionContext.localVariables.pop();
 }
 
 
-};gdjs.evtsExt__PhysicsCar__PhysicsCar.PhysicsCar.prototype.ApplyPolarForceContext.userFunc0x108c4d8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+};gdjs.evtsExt__PhysicsCar__PhysicsCar.PhysicsCar.prototype.ApplyPolarForceContext.userFunc0x10f8418 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 // TODO Remove this function when the engine uses pixels instead of meters.
 
@@ -2086,7 +2086,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Physics
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__PhysicsCar__PhysicsCar.PhysicsCar.prototype.ApplyPolarForceContext.GDObjectObjects1);
-gdjs.evtsExt__PhysicsCar__PhysicsCar.PhysicsCar.prototype.ApplyPolarForceContext.userFunc0x108c4d8(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__PhysicsCar__PhysicsCar.PhysicsCar.prototype.ApplyPolarForceContext.userFunc0x10f8418(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

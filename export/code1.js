@@ -1116,6 +1116,102 @@ if (isConditionTrue_0) {
 }
 
 
+{
+
+gdjs.copyArray(runtimeScene.getObjects("JumpButton"), gdjs.Game_32SceneCode.GDJumpButtonObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Game_32SceneCode.GDJumpButtonObjects1.length;i<l;++i) {
+    if ( gdjs.Game_32SceneCode.GDJumpButtonObjects1[i].getBehavior("ButtonFSM").IsPressed((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.Game_32SceneCode.GDJumpButtonObjects1[k] = gdjs.Game_32SceneCode.GDJumpButtonObjects1[i];
+        ++k;
+    }
+}
+gdjs.Game_32SceneCode.GDJumpButtonObjects1.length = k;
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("JorEl"), gdjs.Game_32SceneCode.GDJorElObjects1);
+{for(var i = 0, len = gdjs.Game_32SceneCode.GDJorElObjects1.length ;i < len;++i) {
+    gdjs.Game_32SceneCode.GDJorElObjects1[i].getBehavior("PlatformerObject").simulateControl("Jump");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Joystick"), gdjs.Game_32SceneCode.GDJoystickObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Game_32SceneCode.GDJoystickObjects1.length;i<l;++i) {
+    if ( gdjs.Game_32SceneCode.GDJoystickObjects1[i].IsDirectionPushed4Way("Up", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.Game_32SceneCode.GDJoystickObjects1[k] = gdjs.Game_32SceneCode.GDJoystickObjects1[i];
+        ++k;
+    }
+}
+gdjs.Game_32SceneCode.GDJoystickObjects1.length = k;
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("JorEl"), gdjs.Game_32SceneCode.GDJorElObjects1);
+{for(var i = 0, len = gdjs.Game_32SceneCode.GDJorElObjects1.length ;i < len;++i) {
+    gdjs.Game_32SceneCode.GDJorElObjects1[i].getBehavior("PlatformerObject").simulateControl("Jump");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Joystick"), gdjs.Game_32SceneCode.GDJoystickObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Game_32SceneCode.GDJoystickObjects1.length;i<l;++i) {
+    if ( gdjs.Game_32SceneCode.GDJoystickObjects1[i].IsDirectionPushed4Way("Left", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.Game_32SceneCode.GDJoystickObjects1[k] = gdjs.Game_32SceneCode.GDJoystickObjects1[i];
+        ++k;
+    }
+}
+gdjs.Game_32SceneCode.GDJoystickObjects1.length = k;
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("JorEl"), gdjs.Game_32SceneCode.GDJorElObjects1);
+{for(var i = 0, len = gdjs.Game_32SceneCode.GDJorElObjects1.length ;i < len;++i) {
+    gdjs.Game_32SceneCode.GDJorElObjects1[i].getBehavior("PlatformerObject").simulateControl("Left");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Joystick"), gdjs.Game_32SceneCode.GDJoystickObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Game_32SceneCode.GDJoystickObjects1.length;i<l;++i) {
+    if ( gdjs.Game_32SceneCode.GDJoystickObjects1[i].IsDirectionPushed4Way("Right", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.Game_32SceneCode.GDJoystickObjects1[k] = gdjs.Game_32SceneCode.GDJoystickObjects1[i];
+        ++k;
+    }
+}
+gdjs.Game_32SceneCode.GDJoystickObjects1.length = k;
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("JorEl"), gdjs.Game_32SceneCode.GDJorElObjects1);
+{for(var i = 0, len = gdjs.Game_32SceneCode.GDJorElObjects1.length ;i < len;++i) {
+    gdjs.Game_32SceneCode.GDJorElObjects1[i].getBehavior("PlatformerObject").simulateControl("Right");
+}
+}}
+
+}
+
+
 };
 
 gdjs.Game_32SceneCode.func = function(runtimeScene) {

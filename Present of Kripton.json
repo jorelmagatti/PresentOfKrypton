@@ -4657,7 +4657,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.2121641972173958,
+        "zoomFactor": 0.71303776306906,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4666,6 +4666,11 @@
           "name": "pulando",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "velocidadeOpacidade",
+          "type": "number",
+          "value": 2
         }
       ],
       "instances": [
@@ -5422,10 +5427,315 @@
           "layer": "",
           "name": "colisionaMessage1",
           "persistentUuid": "39c5bf97-9941-4ee3-86fe-ed7a31eb90cd",
-          "width": 352,
-          "x": 226,
-          "y": 531,
+          "width": 401,
+          "x": 233,
+          "y": 522,
           "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 109,
+          "keepRatio": true,
+          "layer": "",
+          "name": "dialogmensagem2",
+          "persistentUuid": "fbf3d70b-b31f-49dd-8b00-07a49ac75684",
+          "width": 256,
+          "x": 1606,
+          "y": 510,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 89,
+          "keepRatio": true,
+          "layer": "",
+          "name": "mensagem2",
+          "persistentUuid": "0ea8fa7d-3ace-4a35-bc74-cab4b3c55a73",
+          "width": 209,
+          "x": 1624,
+          "y": 563,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 107,
+          "keepRatio": true,
+          "layer": "",
+          "name": "dialogmensagem3",
+          "persistentUuid": "1f3abd29-1893-4b9f-b4b2-51c3e1023a79",
+          "width": 256,
+          "x": 2956,
+          "y": 508,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 106,
+          "keepRatio": true,
+          "layer": "",
+          "name": "mensagem3",
+          "persistentUuid": "9f49f9fb-4d05-427d-9f09-0ecd985af482",
+          "width": 220,
+          "x": 2975,
+          "y": 559,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 107,
+          "keepRatio": true,
+          "layer": "",
+          "name": "dialogmensagem4",
+          "persistentUuid": "dac5882c-a342-4284-9266-4d7a5bad9926",
+          "width": 259,
+          "x": 4325,
+          "y": 512,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 79,
+          "keepRatio": true,
+          "layer": "",
+          "name": "mensagem4",
+          "persistentUuid": "87bd6b69-331a-48e9-9349-2efd3989f09c",
+          "width": 213,
+          "x": 4346,
+          "y": 562,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "dialogmensagem5",
+          "persistentUuid": "c9c84d34-4f8b-4d9e-83e6-d87005460026",
+          "width": 260,
+          "x": 5681,
+          "y": 514,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 82,
+          "keepRatio": true,
+          "layer": "",
+          "name": "mensagem5",
+          "persistentUuid": "7c031011-25da-4e9c-877d-5478822771c7",
+          "width": 221,
+          "x": 5701,
+          "y": 562,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 104,
+          "keepRatio": true,
+          "layer": "",
+          "name": "dialogmensagem6",
+          "persistentUuid": "3af6acfa-ed57-472c-8cd3-7bb1ad4bd865",
+          "width": 261,
+          "x": 6373,
+          "y": 514,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "keepRatio": true,
+          "layer": "",
+          "name": "mensagem6",
+          "persistentUuid": "6fcdba07-185d-483f-9adb-a66297faca30",
+          "width": 211,
+          "x": 6393,
+          "y": 561,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 193,
+          "keepRatio": true,
+          "layer": "",
+          "name": "dialogmensagem7",
+          "persistentUuid": "b8be2bd6-ccde-4edd-a60c-7836c8a0380b",
+          "width": 470,
+          "x": 6856,
+          "y": 444,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 157,
+          "keepRatio": true,
+          "layer": "",
+          "name": "mensagem7",
+          "persistentUuid": "fe60c0f3-73a7-47ec-acb8-345ae7cc1604",
+          "width": 441,
+          "x": 6870,
+          "y": 539,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 371,
+          "keepRatio": true,
+          "layer": "",
+          "name": "colisionaMessage2",
+          "persistentUuid": "ef173903-9572-4811-b190-783a0fb58b0e",
+          "width": 426,
+          "x": 1546,
+          "y": 389,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 372,
+          "keepRatio": true,
+          "layer": "",
+          "name": "colisionaMessage3",
+          "persistentUuid": "5aba4886-8768-49b4-b224-77cc6036c7d2",
+          "width": 364,
+          "x": 2922,
+          "y": 385,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 379,
+          "keepRatio": true,
+          "layer": "",
+          "name": "colisionaMessage4",
+          "persistentUuid": "5dbe5c38-9465-47d0-a327-d7e79f602d39",
+          "width": 392,
+          "x": 4301,
+          "y": 393,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 354,
+          "keepRatio": true,
+          "layer": "",
+          "name": "colisionaMessage5",
+          "persistentUuid": "a97c43dd-1060-43ce-85ee-24e3949f319a",
+          "width": 387,
+          "x": 5639,
+          "y": 407,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 305,
+          "keepRatio": true,
+          "layer": "",
+          "name": "colisionaMessage6",
+          "persistentUuid": "b6696d62-d713-4080-a885-5148bf29a704",
+          "width": 356,
+          "x": 6349,
+          "y": 449,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "colisionaMessage7",
+          "persistentUuid": "09528830-d1bd-4e7d-83e8-54ee03742713",
+          "width": 0,
+          "x": 6838,
+          "y": 242,
+          "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6732,7 +7042,16 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "MaxMovementSpeed_Forces",
+              "type": "SpeedRestrictions::MaxMovementSpeed_Forces",
+              "MaximumSpeed": 150,
+              "CurrentSpeedX": 2.0247e-320,
+              "CurrentSpeedY": 2.0247e-320,
+              "CurrentSpeed": 2.0247e-320
+            }
+          ],
           "animations": [
             {
               "name": "presentOfKripton",
@@ -7004,7 +7323,7 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.12,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -7081,6 +7400,42 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "jorelWalk3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 46,
+                            "y": 32
+                          },
+                          {
+                            "x": 85,
+                            "y": 32
+                          },
+                          {
+                            "x": 85,
+                            "y": 112
+                          },
+                          {
+                            "x": 46,
+                            "y": 112
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\jorelWalk4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9547,11 +9902,928 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "mensagem2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 12,
+          "color": {
+            "b": 248,
+            "g": 248,
+            "r": 248
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "center",
+            "characterSize": 12,
+            "color": "248;248;248"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "dialogmensagem2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "dialog-box.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 5
+                          },
+                          {
+                            "x": 313,
+                            "y": 5
+                          },
+                          {
+                            "x": 313,
+                            "y": 85
+                          },
+                          {
+                            "x": 4,
+                            "y": 85
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "dialogmensagem3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "dialog-box.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 5
+                          },
+                          {
+                            "x": 313,
+                            "y": 5
+                          },
+                          {
+                            "x": 313,
+                            "y": 85
+                          },
+                          {
+                            "x": 4,
+                            "y": 85
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "mensagem3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 12,
+          "color": {
+            "b": 248,
+            "g": 248,
+            "r": 248
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "center",
+            "characterSize": 12,
+            "color": "248;248;248"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "dialogmensagem4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "dialog-box.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 5
+                          },
+                          {
+                            "x": 313,
+                            "y": 5
+                          },
+                          {
+                            "x": 313,
+                            "y": 85
+                          },
+                          {
+                            "x": 4,
+                            "y": 85
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "dialogmensagem5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "dialog-box.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 5
+                          },
+                          {
+                            "x": 313,
+                            "y": 5
+                          },
+                          {
+                            "x": 313,
+                            "y": 85
+                          },
+                          {
+                            "x": 4,
+                            "y": 85
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "mensagem4",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 12,
+          "color": {
+            "b": 248,
+            "g": 248,
+            "r": 248
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "center",
+            "characterSize": 12,
+            "color": "248;248;248"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "mensagem5",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 12,
+          "color": {
+            "b": 248,
+            "g": 248,
+            "r": 248
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "center",
+            "characterSize": 12,
+            "color": "248;248;248"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "dialogmensagem6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "dialog-box.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 5
+                          },
+                          {
+                            "x": 313,
+                            "y": 5
+                          },
+                          {
+                            "x": 313,
+                            "y": 85
+                          },
+                          {
+                            "x": 4,
+                            "y": 85
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "mensagem6",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 12,
+          "color": {
+            "b": 248,
+            "g": 248,
+            "r": 248
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "center",
+            "characterSize": 12,
+            "color": "248;248;248"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "dialogmensagem7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "dialog-box.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 5
+                          },
+                          {
+                            "x": 313,
+                            "y": 5
+                          },
+                          {
+                            "x": 313,
+                            "y": 85
+                          },
+                          {
+                            "x": 4,
+                            "y": 85
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "mensagem7",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 12,
+          "color": {
+            "b": 248,
+            "g": 248,
+            "r": 248
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "center",
+            "characterSize": 12,
+            "color": "248;248;248"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "colisionaMessage2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Layer 1_sprite_61.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "colisionaMessage3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Layer 1_sprite_61.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "colisionaMessage4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Layer 1_sprite_61.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "colisionaMessage5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Layer 1_sprite_61.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "colisionaMessage6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Layer 1_sprite_61.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "colisionaMessage7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Layer 1_sprite_61.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "Dialogos",
+            "children": [
+              {
+                "objectName": "colisionaMessage2"
+              },
+              {
+                "objectName": "colisionaMessage3"
+              },
+              {
+                "objectName": "colisionaMessage4"
+              },
+              {
+                "objectName": "colisionaMessage5"
+              },
+              {
+                "objectName": "colisionaMessage6"
+              },
+              {
+                "objectName": "colisionaMessage7"
+              },
+              {
+                "objectName": "dialogmensagem2"
+              },
+              {
+                "objectName": "dialogmensagem3"
+              },
+              {
+                "objectName": "dialogmensagem4"
+              },
+              {
+                "objectName": "dialogmensagem5"
+              },
+              {
+                "objectName": "dialogmensagem6"
+              },
+              {
+                "objectName": "dialogmensagem7"
+              },
+              {
+                "objectName": "mensagem2"
+              },
+              {
+                "objectName": "mensagem3"
+              },
+              {
+                "objectName": "mensagem4"
+              },
+              {
+                "objectName": "mensagem5"
+              },
+              {
+                "objectName": "mensagem6"
+              },
+              {
+                "objectName": "mensagem7"
+              }
+            ]
+          },
           {
             "objectName": "Platformer_Character"
           },
@@ -10297,6 +11569,18 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Dialogos"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -10316,18 +11600,24 @@
           "actions": [
             {
               "type": {
-                "value": "Cache"
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
-                "mensagem1"
+                "mensagem1",
+                "Opacity",
+                "-",
+                "velocidadeOpacidade"
               ]
             },
             {
               "type": {
-                "value": "Cache"
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
-                "dialogmensagem1"
+                "dialogmensagem1",
+                "Opacity",
+                "-",
+                "velocidadeOpacidade"
               ]
             }
           ]
@@ -10351,19 +11641,497 @@
           "actions": [
             {
               "type": {
-                "value": "Montre"
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
                 "mensagem1",
-                ""
+                "Opacity",
+                "+",
+                "velocidadeOpacidade"
               ]
             },
             {
               "type": {
-                "value": "Montre"
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
                 "dialogmensagem1",
+                "Opacity",
+                "+",
+                "velocidadeOpacidade"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "colisionaMessage2",
+                "preset",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "mensagem2",
+                "Opacity",
+                "-",
+                "velocidadeOpacidade"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "dialogmensagem2",
+                "Opacity",
+                "-",
+                "velocidadeOpacidade"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "colisionaMessage2",
+                "preset",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "mensagem2",
+                "Opacity",
+                "+",
+                "velocidadeOpacidade"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "dialogmensagem2",
+                "Opacity",
+                "+",
+                "velocidadeOpacidade"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "colisionaMessage3",
+                "preset",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "mensagem3",
+                "Opacity",
+                "-",
+                "velocidadeOpacidade"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "dialogmensagem3",
+                "Opacity",
+                "-",
+                "velocidadeOpacidade"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "colisionaMessage3",
+                "preset",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "mensagem3",
+                "Opacity",
+                "+",
+                "velocidadeOpacidade"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "dialogmensagem3",
+                "Opacity",
+                "+",
+                "velocidadeOpacidade"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "colisionaMessage4",
+                "preset",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "mensagem4",
+                "Opacity",
+                "-",
+                "velocidadeOpacidade"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "dialogmensagem4",
+                "Opacity",
+                "-",
+                "velocidadeOpacidade"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "colisionaMessage4",
+                "preset",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "mensagem4",
+                "Opacity",
+                "+",
+                "velocidadeOpacidade"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "dialogmensagem4",
+                "Opacity",
+                "+",
+                "velocidadeOpacidade"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "colisionaMessage5",
+                "preset",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "mensagem5",
+                "Opacity",
+                "-",
+                "velocidadeOpacidade"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "dialogmensagem5",
+                "Opacity",
+                "-",
+                "velocidadeOpacidade"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "colisionaMessage5",
+                "preset",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "mensagem5",
+                "Opacity",
+                "+",
+                "velocidadeOpacidade"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "dialogmensagem5",
+                "Opacity",
+                "+",
+                "velocidadeOpacidade"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "colisionaMessage6",
+                "preset",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "mensagem6",
+                "Opacity",
+                "-",
+                "velocidadeOpacidade"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "dialogmensagem6",
+                "Opacity",
+                "-",
+                "velocidadeOpacidade"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "colisionaMessage6",
+                "preset",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "mensagem6",
+                "Opacity",
+                "+",
+                "velocidadeOpacidade"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "dialogmensagem6",
+                "Opacity",
+                "+",
+                "velocidadeOpacidade"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "colisionaMessage7",
+                "preset",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "mensagem7",
+                "Opacity",
+                "-",
+                "velocidadeOpacidade"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "dialogmensagem7",
+                "Opacity",
+                "-",
+                "velocidadeOpacidade"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "colisionaMessage7",
+                "preset",
+                "",
+                "",
                 ""
               ]
             },
@@ -10379,7 +12147,36 @@
                 ""
               ]
             }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "mensagem7",
+                "Opacity",
+                "+",
+                "velocidadeOpacidade"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "dialogmensagem7",
+                "Opacity",
+                "+",
+                "velocidadeOpacidade"
+              ]
+            }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -10524,6 +12321,10 @@
         {
           "name": "LightObstacleBehavior",
           "type": "Lighting::LightObstacleBehavior"
+        },
+        {
+          "name": "MaxMovementSpeed_Forces",
+          "type": "SpeedRestrictions::MaxMovementSpeed_Forces"
         },
         {
           "name": "MultitouchButton",
@@ -44647,6 +46448,365 @@
           "variants": []
         }
       ]
+    },
+    {
+      "author": "",
+      "category": "Movement",
+      "extensionNamespace": "",
+      "fullName": "Speed restrictions",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXNwZWVkb21ldGVyIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLDE2QTMsMyAwIDAsMSA5LDEzQzksMTEuODggOS42MSwxMC45IDEwLjUsMTAuMzlMMjAuMjEsNC43N0wxNC42OCwxNC4zNUMxNC4xOCwxNS4zMyAxMy4xNywxNiAxMiwxNk0xMiwzQzEzLjgxLDMgMTUuNSwzLjUgMTYuOTcsNC4zMkwxNC44Nyw1LjUzQzE0LDUuMTkgMTMsNSAxMiw1QTgsOCAwIDAsMCA0LDEzQzQsMTUuMjEgNC44OSwxNy4yMSA2LjM0LDE4LjY1SDYuMzVDNi43NCwxOS4wNCA2Ljc0LDE5LjY3IDYuMzUsMjAuMDZDNS45NiwyMC40NSA1LjMyLDIwLjQ1IDQuOTMsMjAuMDdWMjAuMDdDMy4xMiwxOC4yNiAyLDE1Ljc2IDIsMTNBMTAsMTAgMCAwLDEgMTIsM00yMiwxM0MyMiwxNS43NiAyMC44OCwxOC4yNiAxOS4wNywyMC4wN1YyMC4wN0MxOC42OCwyMC40NSAxOC4wNSwyMC40NSAxNy42NiwyMC4wNkMxNy4yNywxOS42NyAxNy4yNywxOS4wNCAxNy42NiwxOC42NVYxOC42NUMxOS4xMSwxNy4yIDIwLDE1LjIxIDIwLDEzQzIwLDEyIDE5LjgxLDExIDE5LjQ2LDEwLjFMMjAuNjcsOEMyMS41LDkuNSAyMiwxMS4xOCAyMiwxM1oiIC8+PC9zdmc+",
+      "name": "SpeedRestrictions",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/speedometer.svg",
+      "shortDescription": "Limit the maximum movement and rotation speed of an object from forces or the physics behavior.",
+      "version": "0.1.0",
+      "description": [
+        "Limit the maximum movement and rotation speed of an object from forces or the physics behavior.",
+        "",
+        "How to use:",
+        "- Add the behavior that matches the method used to move the object (forces or physics)",
+        "- Set the maximum speed value in the behavior properties",
+        "",
+        "Tips:",
+        "- This only affects movement caused by forces or physics behavior",
+        "- This may not affect movement caused by other behaviors (platformer, top-down, draggable, etc)"
+      ],
+      "origin": {
+        "identifier": "SpeedRestrictions",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "physics",
+        "maximum",
+        "speed",
+        "velocity",
+        "physics",
+        "force",
+        "limit"
+      ],
+      "authorIds": [
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Limit the maximum speed an object will move from (non-physics) forces.",
+          "fullName": "Enforce max movement speed",
+          "name": "MaxMovementSpeed_Forces",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Vitesse"
+                      },
+                      "parameters": [
+                        "Object",
+                        ">",
+                        "MaximumSpeed"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CurrentSpeedX",
+                        "=",
+                        "Object.ForceX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CurrentSpeedY",
+                        "=",
+                        "Object.ForceY()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CurrentSpeed",
+                        "=",
+                        "Object.ForceLength()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Object"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "CurrentSpeedX * MaximumSpeed / CurrentSpeed",
+                        "CurrentSpeedY * MaximumSpeed / CurrentSpeed",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpeedRestrictions::MaxMovementSpeed_Forces",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Number",
+              "label": "Maximum speed (pixels/second)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "name": "MaximumSpeed"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "CurrentSpeedX"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "CurrentSpeedY"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "CurrentSpeed"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        },
+        {
+          "description": "Limit the maximum speed an object will move from physics forces.",
+          "fullName": "Enforce max movement speed (physics)",
+          "name": "MaxMovementSpeed_Physics",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityLength"
+                      },
+                      "parameters": [
+                        "Object",
+                        "PhysicsBehavior",
+                        ">",
+                        "MaximumSpeed"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "PhysicsBehavior",
+                        "*",
+                        "MaximumSpeed / Object. PhysicsBehavior::LinearVelocity()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "PhysicsBehavior",
+                        "*",
+                        "MaximumSpeed / Object. PhysicsBehavior::LinearVelocity()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpeedRestrictions::MaxMovementSpeed_Physics",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Physics Behavior (required)",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "Physics2::Physics2Behavior"
+              ],
+              "name": "PhysicsBehavior"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "Maximum speed (pixels/second)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "name": "MaximumSpeed"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        },
+        {
+          "description": "Limit the maximum rotation speed of an object from physics forces.",
+          "fullName": "Enforce max rotation speed (physics)",
+          "name": "MaxRotationSpeed_Physics",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "abs(Object.PhysicsBehavior::AngularVelocity())",
+                        ">",
+                        "MaximumRotationSpeed"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::AngularVelocity"
+                      },
+                      "parameters": [
+                        "Object",
+                        "PhysicsBehavior",
+                        "*",
+                        "abs(MaximumRotationSpeed / Object.PhysicsBehavior::AngularVelocity())"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpeedRestrictions::MaxRotationSpeed_Physics",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Physics Behavior (required)",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "Physics2::Physics2Behavior"
+              ],
+              "name": "PhysicsBehavior"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "Maximum rotation speed (degrees/second)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "name": "MaximumRotationSpeed"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
     }
   ],
   "externalLayouts": []

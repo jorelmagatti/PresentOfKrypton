@@ -2679,6 +2679,108 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "hongbao_glow_0[1].png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hongbao_glow_0[1].png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "hongbao_glow_0[1]2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hongbao_glow_0[1]2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "hongbao_glow_1[1].png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hongbao_glow_1[1].png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "hongbao_glow_2[1].png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hongbao_glow_2[1].png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "hongbao_glow_4[1].png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hongbao_glow_4[1].png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "hongbao_glow_5[1].png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hongbao_glow_5[1].png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "glow_z_061[1].png",
+        "kind": "image",
+        "metadata": "",
+        "name": "glow_z_061[1].png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bubble.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bubble.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/12254a94cf3e8dbc4bcccadf4f2f761ee0736f0abe7405c4a419fab822ba90ca_Bubble.png",
+          "name": "Bubble.png"
+        }
+      },
+      {
+        "file": "assets/Sparks.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sparks.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/1be94c18bc3de19355d118a226f03e10a4f18307277f00f3559d265a9b27bbef_Sparks.png",
+          "name": "Sparks.png"
+        }
+      },
+      {
+        "file": "assets/Snow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Snow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/29b9ec523484e55b183b3e008d942effecb6175042c5192136c78cc750120781_Snow.png",
+          "name": "Snow.png"
+        }
+      },
+      {
+        "file": "baby-laughing-64684 (mp3cut.net).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "baby-laughing-64684 (mp3cut.net).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4717,7 +4819,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.0615714305220283,
+        "zoomFactor": 1.2530387740590212,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5203,7 +5305,7 @@
           "persistentUuid": "3a52adf9-5d12-40b6-920d-e54724584ea4",
           "width": 109,
           "x": 6658,
-          "y": 507,
+          "y": 506,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -5219,9 +5321,9 @@
           "name": "preset",
           "persistentUuid": "ba040593-8093-4f23-9996-9f676a03cd29",
           "width": 48,
-          "x": 42,
-          "y": 630,
-          "zOrder": 9,
+          "x": 11,
+          "y": 668,
+          "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5253,8 +5355,8 @@
           "name": "JorEl",
           "persistentUuid": "40429a25-484e-4504-a5ed-b8943ba09343",
           "width": 214,
-          "x": -75,
-          "y": 415,
+          "x": -143,
+          "y": 562,
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
@@ -5675,9 +5777,9 @@
           "name": "dialogmensagem7",
           "persistentUuid": "b8be2bd6-ccde-4edd-a60c-7836c8a0380b",
           "width": 470,
-          "x": 6856,
-          "y": 444,
-          "zOrder": 42,
+          "x": 6851,
+          "y": 442,
+          "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5686,15 +5788,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 157,
+          "height": 47,
           "keepRatio": true,
           "layer": "",
           "name": "mensagem7",
           "persistentUuid": "fe60c0f3-73a7-47ec-acb8-345ae7cc1604",
           "width": 441,
-          "x": 6870,
-          "y": 539,
-          "zOrder": 43,
+          "x": 6865,
+          "y": 462,
+          "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5786,15 +5888,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 512,
           "keepRatio": true,
           "layer": "",
           "name": "colisionaMessage7",
           "persistentUuid": "09528830-d1bd-4e7d-83e8-54ee03742713",
-          "width": 0,
-          "x": 6838,
-          "y": 242,
+          "width": 460,
+          "x": 6861,
+          "y": 237,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -5810,8 +5913,8 @@
           "name": "colisionaMessage8",
           "persistentUuid": "d51481e0-4518-4146-bb14-ee87ffd1d535",
           "width": 69,
-          "x": 7052,
-          "y": 242,
+          "x": 7047,
+          "y": 244,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -5826,10 +5929,95 @@
           "layer": "",
           "name": "colisionaMessage9",
           "persistentUuid": "c529dfcc-dd4e-4756-83f1-5cfedee3b61b",
-          "width": 74,
-          "x": 7054,
-          "y": 245,
-          "zOrder": 51,
+          "width": 58,
+          "x": 7057,
+          "y": 243,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 56,
+          "keepRatio": true,
+          "layer": "",
+          "name": "mensagem8",
+          "persistentUuid": "952bfe9c-ecaf-4f07-808a-fc9c2bbbecda",
+          "width": 437,
+          "x": 6867,
+          "y": 509,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "",
+          "name": "mensagem9",
+          "persistentUuid": "fa476d20-eaa5-42ca-b7f8-cd942b254081",
+          "width": 429,
+          "x": 6867,
+          "y": 572,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 148,
+          "keepRatio": true,
+          "layer": "",
+          "name": "presentFocus",
+          "persistentUuid": "5df3b884-aeb5-4d99-ae5e-95945283b4f4",
+          "width": 162,
+          "x": 6996,
+          "y": 620,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 3,
+          "keepRatio": true,
+          "layer": "",
+          "name": "star",
+          "persistentUuid": "d50aef2e-c5b1-48d4-b59e-eb65f89a12e2",
+          "width": 5,
+          "x": 7049,
+          "y": 689,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 129,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Starts",
+          "persistentUuid": "044c0b7a-c1cb-484b-b3c6-821bf5f3a566",
+          "width": 135,
+          "x": 7080,
+          "y": 698,
+          "zOrder": 59,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7138,6 +7326,16 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
               "name": "MaxMovementSpeed_Forces",
               "type": "SpeedRestrictions::MaxMovementSpeed_Forces",
               "MaximumSpeed": 150,
@@ -7772,7 +7970,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+          "string": "Jor El: Você é a luz que carregamos, pequena alma, o futuro que sonhamos para um mundo além do nosso",
           "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 12,
@@ -7795,7 +7993,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+            "text": "Jor El: Você é a luz que carregamos, pequena alma, o futuro que sonhamos para um mundo além do nosso",
             "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "center",
@@ -9899,7 +10097,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+          "string": "Jor El: Este caminho é curto, mas cada passo é um voto de esperança. Você vai brilhar onde nós não podemos",
           "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 12,
@@ -9922,7 +10120,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+            "text": "Jor El: Este caminho é curto, mas cada passo é um voto de esperança. Você vai brilhar onde nós não podemos",
             "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "center",
@@ -10061,7 +10259,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+          "string": "Jor El: Você não conhecerá os céus que nos viram nascer, mas os céus que te aguardam serão seus para conquistar",
           "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 12,
@@ -10084,7 +10282,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+            "text": "Jor El: Você não conhecerá os céus que nos viram nascer, mas os céus que te aguardam serão seus para conquistar",
             "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "center",
@@ -10223,7 +10421,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+          "string": "Jor El: Você é o nosso legado, a promessa de que o amanhã será maior do que o hoje. Viva, pequena chama, viva intensamente",
           "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 12,
@@ -10246,7 +10444,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+            "text": "Jor El: Você é o nosso legado, a promessa de que o amanhã será maior do que o hoje. Viva, pequena chama, viva intensamente",
             "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "center",
@@ -10265,7 +10463,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+          "string": "Jor El: Tudo o que somos, nosso amor, nossa coragem, entregamos a você, para que encontre um lar entre as constelações",
           "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 12,
@@ -10288,7 +10486,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+            "text": "Jor El: Tudo o que somos, nosso amor, nossa coragem, entregamos a você, para que encontre um lar entre as constelações",
             "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "center",
@@ -10367,7 +10565,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+          "string": "Jor El: Veja, ali está ela, esperando por você. Nós dois te amamos mais do que as palavras podem carregar.",
           "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 12,
@@ -10390,7 +10588,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+            "text": "Jor El: Veja, ali está ela, esperando por você. Nós dois te amamos mais do que as palavras podem carregar.",
             "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "center",
@@ -10469,19 +10667,19 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+          "string": "Jor El: Você é nossa esperança, nosso coração além do tempo. Vá, e que o universo te abrace como nós te abraçamos agora.\n\n",
           "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 12,
           "color": {
-            "b": 248,
-            "g": 248,
-            "r": 248
+            "b": 240,
+            "g": 188,
+            "r": 161
           },
           "content": {
             "bold": false,
             "isOutlineEnabled": false,
-            "isShadowEnabled": false,
+            "isShadowEnabled": true,
             "italic": false,
             "outlineColor": "255;255;255",
             "outlineThickness": 2,
@@ -10492,12 +10690,12 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Preciso levar minha criança para a capsula, a terra precisa deste presente",
+            "text": "Jor El: Você é nossa esperança, nosso coração além do tempo. Vá, e que o universo te abrace como nós te abraçamos agora.\n\n",
             "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
             "textAlignment": "left",
-            "verticalTextAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 12,
-            "color": "248;248;248"
+            "color": "161;188;240"
           }
         },
         {
@@ -10827,6 +11025,401 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "mensagem8",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Jess Ica: Meu filho, você é a canção que canto ao infinito. Cresça, ame e seja a luz que guia os outros, como você sempre será a nossa. Estaremos sempre com você.\n\n",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 12,
+          "color": {
+            "b": 235,
+            "g": 176,
+            "r": 224
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Jess Ica: Meu filho, você é a canção que canto ao infinito. Cresça, ame e seja a luz que guia os outros, como você sempre será a nossa. Estaremos sempre com você.\n\n",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 12,
+            "color": "224;176;235"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "mensagem9",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Pressione a Capsula para descobri o presente de Krypton\n\n",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "b": 35,
+            "g": 166,
+            "r": 245
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Pressione a Capsula para descobri o presente de Krypton\n\n",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "color": "245;166;35"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "presentFocus",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "focus",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "hongbao_glow_0[1]2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 30
+                          },
+                          {
+                            "x": 76,
+                            "y": 30
+                          },
+                          {
+                            "x": 76,
+                            "y": 96
+                          },
+                          {
+                            "x": 22,
+                            "y": 96
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "hongbao_glow_1[1].png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 30
+                          },
+                          {
+                            "x": 76,
+                            "y": 30
+                          },
+                          {
+                            "x": 76,
+                            "y": 96
+                          },
+                          {
+                            "x": 22,
+                            "y": 96
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "hongbao_glow_2[1].png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 30
+                          },
+                          {
+                            "x": 76,
+                            "y": 30
+                          },
+                          {
+                            "x": 76,
+                            "y": 96
+                          },
+                          {
+                            "x": 22,
+                            "y": 96
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "hongbao_glow_4[1].png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 30
+                          },
+                          {
+                            "x": 76,
+                            "y": 30
+                          },
+                          {
+                            "x": 76,
+                            "y": 96
+                          },
+                          {
+                            "x": 22,
+                            "y": 96
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "hongbao_glow_5[1].png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 30
+                          },
+                          {
+                            "x": 76,
+                            "y": 30
+                          },
+                          {
+                            "x": 76,
+                            "y": 96
+                          },
+                          {
+                            "x": 22,
+                            "y": 96
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "star",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "glow_z_061[1].png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 10
+                          },
+                          {
+                            "x": 53,
+                            "y": 10
+                          },
+                          {
+                            "x": 53,
+                            "y": 55
+                          },
+                          {
+                            "x": 11,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "additive": false,
+          "assetStoreId": "a601135e35f22fd34f5ea8ef1d784e1a1e371f48b5bc2ea228ced5f9b05388e4",
+          "destroyWhenNoParticles": false,
+          "emitterAngleA": 0,
+          "emitterAngleB": 0,
+          "emitterForceMax": 100,
+          "emitterForceMin": 50,
+          "flow": 50,
+          "jumpForwardInTimeOnCreation": 0,
+          "maxParticleNb": 500,
+          "name": "Starts",
+          "particleAlpha1": 186,
+          "particleAlpha2": 117,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 255,
+          "particleBlue2": 255,
+          "particleColor1": "255;255;255",
+          "particleColor2": "255;255;255",
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGreen1": 255,
+          "particleGreen2": 255,
+          "particleLifeTimeMax": 4,
+          "particleLifeTimeMin": 4,
+          "particleRed1": 255,
+          "particleRed2": 255,
+          "particleSize1": 15,
+          "particleSize2": 20,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 1,
+          "rendererParam2": 1,
+          "rendererType": "Quad",
+          "tank": -1,
+          "textureParticleName": "glow_z_061[1].png",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 200,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -10835,6 +11428,9 @@
           {
             "folderName": "Dialogos",
             "children": [
+              {
+                "objectName": "colisionaMessage1"
+              },
               {
                 "objectName": "colisionaMessage2"
               },
@@ -10878,6 +11474,9 @@
                 "objectName": "dialogmensagem7"
               },
               {
+                "objectName": "mensagem1"
+              },
+              {
                 "objectName": "mensagem2"
               },
               {
@@ -10894,6 +11493,15 @@
               },
               {
                 "objectName": "mensagem7"
+              },
+              {
+                "objectName": "mensagem8"
+              },
+              {
+                "objectName": "mensagem9"
+              },
+              {
+                "objectName": "star"
               }
             ]
           },
@@ -10913,13 +11521,7 @@
             "objectName": "Platform_VerticalInvert"
           },
           {
-            "objectName": "mensagem1"
-          },
-          {
             "objectName": "dialogmensagem1"
-          },
-          {
-            "objectName": "colisionaMessage1"
           },
           {
             "objectName": "lightExtension"
@@ -10963,10 +11565,16 @@
             "objectName": "preset"
           },
           {
+            "objectName": "presentFocus"
+          },
+          {
             "objectName": "StarShip"
           },
           {
             "objectName": "NairanDreadnought"
+          },
+          {
+            "objectName": "Starts"
           }
         ]
       },
@@ -12190,6 +12798,39 @@
                 "-",
                 "velocidadeOpacidade"
               ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "mensagem8",
+                "Opacity",
+                "-",
+                "velocidadeOpacidade"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "colisionaMessage9",
+                "Opacity",
+                "-",
+                "velocidadeOpacidade"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "presentFocus",
+                "Opacity",
+                "-",
+                "velocidadeOpacidade"
+              ]
             }
           ]
         },
@@ -12227,6 +12868,39 @@
               },
               "parameters": [
                 "dialogmensagem7",
+                "Opacity",
+                "+",
+                "velocidadeOpacidade"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "mensagem8",
+                "Opacity",
+                "+",
+                "velocidadeOpacidade"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "mensagem9",
+                "Opacity",
+                "+",
+                "velocidadeOpacidade"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "presentFocus",
                 "Opacity",
                 "+",
                 "velocidadeOpacidade"
@@ -12492,34 +13166,6 @@
           "conditions": [
             {
               "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"tempoParaFina\"",
-                ">=",
-                "5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Game Pre Final\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -12553,15 +13199,6 @@
                 "Animation",
                 "=",
                 "\"Parado Direito\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"tempoParaFina\""
               ]
             },
             {
@@ -12737,6 +13374,74 @@
                 "JorEl",
                 "PlatformerObject",
                 "\"Right\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "supermom",
+                "preset",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "preset",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Game Pre Final\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "preset",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "baby-laughing-64684 (mp3cut.net).mp3",
+                "",
+                "20",
+                ""
               ]
             }
           ]

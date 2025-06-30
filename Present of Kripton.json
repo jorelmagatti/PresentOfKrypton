@@ -1,7 +1,7 @@
 {
   "firstLayout": "Game  Menu",
   "gdVersion": {
-    "build": 231,
+    "build": 233,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -20,7 +20,7 @@
     "templateSlug": "starting-platformer-pixel",
     "version": "1.0.0",
     "name": "Present of Kripton",
-    "description": "The minigame about new member in Magatti family",
+    "description": "A minigame about new member in Magatti family",
     "author": "Jorel Magatti",
     "windowWidth": 1280,
     "windowHeight": 720,
@@ -78,10 +78,10 @@
       "showWatermark": true
     },
     "authorIds": [
-      "94rVbMavZBSONS762vWwXHsTsxG3"
+      "SeVuiqRYDgURuuSXiD3TFmEZqvF3"
     ],
     "authorUsernames": [
-      "JorelDev"
+      "JorelMagatti"
     ],
     "categories": [],
     "playableDevices": [],
@@ -4829,7 +4829,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.061571430522031,
+        "zoomFactor": 0.8416428125373371,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -17703,8 +17703,6 @@
               "type": "Boolean",
               "label": "",
               "description": "Should check hovering",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "ShouldCheckHovering"
             },
@@ -17712,8 +17710,6 @@
               "value": "Idle",
               "type": "Choice",
               "label": "State",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Idle",
                 "Hovered",
@@ -17728,9 +17724,6 @@
               "value": "0",
               "type": "Number",
               "label": "Touch id",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "TouchId"
             },
@@ -17738,9 +17731,6 @@
               "value": "",
               "type": "Boolean",
               "label": "Touch is inside",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "TouchIsInside"
             },
@@ -17748,9 +17738,6 @@
               "value": "",
               "type": "Boolean",
               "label": "Mouse is inside",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "MouseIsInside"
             },
@@ -17758,9 +17745,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "Index"
             }
@@ -18273,8 +18257,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Button states",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
@@ -18284,8 +18266,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Effect capability",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
@@ -18295,9 +18275,7 @@
               "value": "",
               "type": "String",
               "label": "Idle state effect",
-              "description": "",
               "group": "Effects",
-              "extraInformation": [],
               "name": "IdleEffect"
             },
             {
@@ -18306,16 +18284,13 @@
               "label": "Focused state effect",
               "description": "The state is Focused when the button is hovered or held outside.",
               "group": "Effects",
-              "extraInformation": [],
               "name": "FocusedEffect"
             },
             {
               "value": "",
               "type": "String",
               "label": "Pressed state effect",
-              "description": "",
               "group": "Effects",
-              "extraInformation": [],
               "name": "PressedEffect"
             }
           ],
@@ -18733,8 +18708,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Animatable capability",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "AnimatableCapability::AnimatableBehavior"
               ],
@@ -18744,8 +18717,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Button states",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
@@ -18755,9 +18726,7 @@
               "value": "Idle",
               "type": "String",
               "label": "Idle state animation name",
-              "description": "",
               "group": "Animation",
-              "extraInformation": [],
               "name": "IdleAnimationName"
             },
             {
@@ -18766,16 +18735,13 @@
               "label": "Focused state animation name",
               "description": "The state is Focused when the button is hovered or held outside.",
               "group": "Animation",
-              "extraInformation": [],
               "name": "FocusedAnimationName"
             },
             {
               "value": "Pressed",
               "type": "String",
               "label": "Pressed state animation name",
-              "description": "",
               "group": "Animation",
-              "extraInformation": [],
               "name": "PressedAnimationName"
             }
           ],
@@ -20178,8 +20144,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Button states",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
@@ -20189,8 +20153,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Effect capability",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
@@ -20200,9 +20162,7 @@
               "value": "Effect",
               "type": "String",
               "label": "Effect name",
-              "description": "",
               "group": "Effect",
-              "extraInformation": [],
               "name": "EffectName"
             },
             {
@@ -20211,16 +20171,13 @@
               "label": "Effect parameter",
               "description": "The effect parameter names can be found in the effects tab with the \"Show parameter names\" action of the drop down menu.",
               "group": "Effect",
-              "extraInformation": [],
               "name": "EffectProperty"
             },
             {
               "value": "0",
               "type": "Number",
               "label": "Idle effect parameter value",
-              "description": "",
               "group": "Value",
-              "extraInformation": [],
               "name": "IdleValue"
             },
             {
@@ -20229,23 +20186,19 @@
               "label": "Focused effect parameter value",
               "description": "The state is Focused when the button is hovered or held outside.",
               "group": "Value",
-              "extraInformation": [],
               "name": "FocusedValue"
             },
             {
               "value": "0",
               "type": "Number",
               "label": "Pressed effect parameter value",
-              "description": "",
               "group": "Value",
-              "extraInformation": [],
               "name": "PressedValue"
             },
             {
               "value": "easeInOutQuad",
               "type": "Choice",
               "label": "Fade-in easing",
-              "description": "",
               "group": "Speed",
               "extraInformation": [
                 "linear",
@@ -20288,7 +20241,6 @@
               "value": "easeInOutQuad",
               "type": "Choice",
               "label": "Fade-out easing",
-              "description": "",
               "group": "Speed",
               "extraInformation": [
                 "linear",
@@ -20332,9 +20284,7 @@
               "type": "Number",
               "unit": "Second",
               "label": "Fade-in duration",
-              "description": "",
               "group": "Speed",
-              "extraInformation": [],
               "name": "FadeInDuration"
             },
             {
@@ -20342,17 +20292,13 @@
               "type": "Number",
               "unit": "Second",
               "label": "Fade-out duration",
-              "description": "",
               "group": "Speed",
-              "extraInformation": [],
               "name": "FadeOutDuration"
             },
             {
               "value": "Idle",
               "type": "Choice",
               "label": "",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Idle",
                 "Focused",
@@ -20365,9 +20311,6 @@
               "value": "0",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "TweenInitialValue"
             },
@@ -20375,9 +20318,6 @@
               "value": "0",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "TweenTargetedValue"
             },
@@ -20385,9 +20325,6 @@
               "value": "0",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "TweenTime"
             },
@@ -20395,8 +20332,6 @@
               "value": "NoTween",
               "type": "Choice",
               "label": "",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "NoTween",
                 "FadeIn",
@@ -20409,9 +20344,6 @@
               "value": "0",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "EffectValue"
             }
@@ -21370,8 +21302,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Scalable capability",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "ScalableCapability::ScalableBehavior"
               ],
@@ -21381,8 +21311,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Button states behavior (required)",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
@@ -21392,8 +21320,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Tween behavior (required)",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
@@ -21404,9 +21330,7 @@
               "type": "Number",
               "unit": "Dimensionless",
               "label": "Idle state size scale",
-              "description": "",
               "group": "Size",
-              "extraInformation": [],
               "name": "IdleScale"
             },
             {
@@ -21416,7 +21340,6 @@
               "label": "Focused state size scale",
               "description": "The state is Focused when the button is hovered or held outside.",
               "group": "Size",
-              "extraInformation": [],
               "name": "FocusedScale"
             },
             {
@@ -21424,9 +21347,7 @@
               "type": "Number",
               "unit": "Second",
               "label": "Fade-in duration",
-              "description": "",
               "group": "Speed",
-              "extraInformation": [],
               "name": "FadeInDuration"
             },
             {
@@ -21434,9 +21355,7 @@
               "type": "Number",
               "unit": "Second",
               "label": "Fade-out duration",
-              "description": "",
               "group": "Speed",
-              "extraInformation": [],
               "name": "FadeOutDuration"
             },
             {
@@ -21444,16 +21363,13 @@
               "type": "Number",
               "unit": "Dimensionless",
               "label": "Pressed state size scale",
-              "description": "",
               "group": "Size",
-              "extraInformation": [],
               "name": "PressedScale"
             },
             {
               "value": "easeInOutQuad",
               "type": "Choice",
               "label": "Fade-in easing",
-              "description": "",
               "group": "Speed",
               "extraInformation": [
                 "linear",
@@ -21496,7 +21412,6 @@
               "value": "easeInOutQuad",
               "type": "Choice",
               "label": "Fade-out easing",
-              "description": "",
               "group": "Speed",
               "extraInformation": [
                 "linear",
@@ -21539,8 +21454,6 @@
               "value": "Idle",
               "type": "Choice",
               "label": "",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Idle",
                 "Focused",
@@ -22518,8 +22431,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Button states",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
@@ -22529,8 +22440,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Tween",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
@@ -22540,9 +22449,7 @@
               "value": "255;255;255",
               "type": "Color",
               "label": "Idle state color tint",
-              "description": "",
               "group": "Color",
-              "extraInformation": [],
               "name": "IdleColorTint"
             },
             {
@@ -22551,16 +22458,13 @@
               "label": "Focused state color tint",
               "description": "The state is Focused when the button is hovered or held outside.",
               "group": "Color",
-              "extraInformation": [],
               "name": "FocusedColorTint"
             },
             {
               "value": "64;64;64",
               "type": "Color",
               "label": "Pressed state color tint",
-              "description": "",
               "group": "Color",
-              "extraInformation": [],
               "name": "PressedColorTint"
             },
             {
@@ -22568,9 +22472,7 @@
               "type": "Number",
               "unit": "Second",
               "label": "Fade-in duration",
-              "description": "",
               "group": "Speed",
-              "extraInformation": [],
               "name": "FadeInDuration"
             },
             {
@@ -22578,16 +22480,13 @@
               "type": "Number",
               "unit": "Second",
               "label": "Fade-out duration",
-              "description": "",
               "group": "Speed",
-              "extraInformation": [],
               "name": "FadeOutDuration"
             },
             {
               "value": "easeInOutQuad",
               "type": "Choice",
               "label": "Fade-in easing",
-              "description": "",
               "group": "Speed",
               "extraInformation": [
                 "linear",
@@ -22630,7 +22529,6 @@
               "value": "easeInOutQuad",
               "type": "Choice",
               "label": "Fade-out easing",
-              "description": "",
               "group": "Speed",
               "extraInformation": [
                 "linear",
@@ -22673,8 +22571,6 @@
               "value": "Idle",
               "type": "Choice",
               "label": "",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Idle",
                 "Focused",
@@ -25143,18 +25039,12 @@
               "value": "1",
               "type": "Number",
               "label": "Multitouch controller identifier (1, 2, 3, 4...)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "ControllerIdentifier"
             },
             {
               "value": "Primary",
               "type": "String",
               "label": "Joystick name",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "JoystickIdentifier"
             },
             {
@@ -25162,17 +25052,12 @@
               "type": "Number",
               "label": "Dead zone radius (range: 0 to 1)",
               "description": "The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved)",
-              "group": "",
-              "extraInformation": [],
               "name": "DeadZoneRadius"
             },
             {
               "value": "0",
               "type": "Number",
               "label": "Joystick angle (range: -180 to 180)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "JoystickAngle"
             },
@@ -25180,9 +25065,6 @@
               "value": "0",
               "type": "Number",
               "label": "Joystick force (range: 0 to 1)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "JoystickForce"
             },
@@ -25190,9 +25072,6 @@
               "value": "0",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "TouchId"
             },
@@ -25200,9 +25079,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "TouchIndex"
             }
@@ -25585,27 +25461,18 @@
               "value": "1",
               "type": "Number",
               "label": "Multitouch controller identifier (1, 2, 3, 4...)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "ControllerIdentifier"
             },
             {
               "value": "A",
               "type": "String",
               "label": "Button identifier",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "ButtonIdentifier"
             },
             {
               "value": "0",
               "type": "Number",
               "label": "TouchID",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "TouchId"
             },
@@ -25613,9 +25480,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "TouchIndex"
             },
@@ -25623,9 +25487,6 @@
               "value": "",
               "type": "Boolean",
               "label": "Button released",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "IsReleased"
             }
@@ -25814,8 +25675,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Platform character behavior",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
@@ -25825,16 +25684,12 @@
               "value": "1",
               "type": "Number",
               "label": "Controller identifier (1, 2, 3, 4...)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "ControllerIdentifier"
             },
             {
               "value": "Primary",
               "type": "Choice",
               "label": "Joystick name",
-              "description": "",
               "group": "Controls",
               "extraInformation": [
                 "Primary",
@@ -25846,9 +25701,7 @@
               "value": "A",
               "type": "String",
               "label": "Jump button name",
-              "description": "",
               "group": "Controls",
-              "extraInformation": [],
               "name": "JumpButton"
             }
           ],
@@ -26372,8 +26225,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Top-down movement behavior",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "TopDownMovementBehavior::TopDownMovementBehavior"
               ],
@@ -26383,17 +26234,12 @@
               "value": "1",
               "type": "Number",
               "label": "Controller identifier (1, 2, 3, 4...)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "ControllerIdentifier"
             },
             {
               "value": "Primary",
               "type": "Choice",
               "label": "Joystick name",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Primary",
                 "Secondary"
@@ -26404,7 +26250,6 @@
               "value": "Analog",
               "type": "Choice",
               "label": "Stick mode",
-              "description": "",
               "group": "Controls",
               "extraInformation": [
                 "Analog",
@@ -27422,17 +27267,12 @@
               "value": "1",
               "type": "Number",
               "label": "Multitouch controller identifier (1, 2, 3, 4...)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "ControllerIdentifier"
             },
             {
               "value": "Primary",
               "type": "Choice",
               "label": "Joystick name",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Primary",
                 "Secondary"
@@ -27444,8 +27284,6 @@
               "type": "Number",
               "label": "Dead zone radius (range: 0 to 1)",
               "description": "The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved)",
-              "group": "",
-              "extraInformation": [],
               "name": "DeadZoneRadius"
             },
             {
@@ -27453,7 +27291,6 @@
               "type": "String",
               "label": "",
               "description": "Only used by the scene editor.",
-              "group": "",
               "extraInformation": [
                 "Thumb"
               ],
@@ -27465,8 +27302,6 @@
               "type": "Number",
               "label": "",
               "description": "Only used by the scene editor.",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "ThumbAnchorTarget"
             },
@@ -27475,7 +27310,6 @@
               "type": "Boolean",
               "label": "",
               "description": "Only used by the scene editor.",
-              "group": "",
               "extraInformation": [
                 "Thumb"
               ],
@@ -27487,8 +27321,6 @@
               "type": "String",
               "label": "",
               "description": "Only used by the scene editor.",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "ParentOrigin"
             }
@@ -32024,54 +31856,40 @@
               "value": "0.9",
               "type": "Number",
               "label": "Leftward catch-up speed (in ratio per second)",
-              "description": "",
               "group": "Catch-up speed",
-              "extraInformation": [],
               "name": "LeftwardSpeed"
             },
             {
               "value": "0.9",
               "type": "Number",
               "label": "Rightward catch-up speed (in ratio per second)",
-              "description": "",
               "group": "Catch-up speed",
-              "extraInformation": [],
               "name": "RightwardSpeed"
             },
             {
               "value": "0.9",
               "type": "Number",
               "label": "Upward catch-up speed (in ratio per second)",
-              "description": "",
               "group": "Catch-up speed",
-              "extraInformation": [],
               "name": "UpwardSpeed"
             },
             {
               "value": "0.9",
               "type": "Number",
               "label": "Downward catch-up speed (in ratio per second)",
-              "description": "",
               "group": "Catch-up speed",
-              "extraInformation": [],
               "name": "DownwardSpeed"
             },
             {
               "value": "true",
               "type": "Boolean",
               "label": "Follow on X axis",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "FollowOnX"
             },
             {
               "value": "true",
               "type": "Boolean",
               "label": "Follow on Y axis",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "FollowOnY"
             },
             {
@@ -32079,9 +31897,7 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Follow free area left border",
-              "description": "",
               "group": "Position",
-              "extraInformation": [],
               "advanced": true,
               "name": "FollowFreeAreaLeft"
             },
@@ -32090,9 +31906,7 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Follow free area right border",
-              "description": "",
               "group": "Position",
-              "extraInformation": [],
               "advanced": true,
               "name": "FollowFreeAreaRight"
             },
@@ -32101,9 +31915,7 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Follow free area top border",
-              "description": "",
               "group": "Position",
-              "extraInformation": [],
               "advanced": true,
               "name": "FollowFreeAreaTop"
             },
@@ -32112,9 +31924,7 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Follow free area bottom border",
-              "description": "",
               "group": "Position",
-              "extraInformation": [],
               "advanced": true,
               "name": "FollowFreeAreaBottom"
             },
@@ -32123,9 +31933,7 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Camera offset X",
-              "description": "",
               "group": "Position",
-              "extraInformation": [],
               "advanced": true,
               "name": "CameraOffsetX"
             },
@@ -32134,9 +31942,7 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Camera offset Y",
-              "description": "",
               "group": "Position",
-              "extraInformation": [],
               "advanced": true,
               "name": "CameraOffsetY"
             },
@@ -32145,9 +31951,7 @@
               "type": "Number",
               "unit": "Second",
               "label": "Camera delay",
-              "description": "",
               "group": "Timing",
-              "extraInformation": [],
               "deprecated": true,
               "name": "CameraDelay"
             },
@@ -32156,9 +31960,7 @@
               "type": "Number",
               "unit": "Second",
               "label": "Forecast time",
-              "description": "",
               "group": "Timing",
-              "extraInformation": [],
               "deprecated": true,
               "name": "ForecastTime"
             },
@@ -32167,9 +31969,7 @@
               "type": "Number",
               "unit": "Second",
               "label": "Forecast history duration",
-              "description": "",
               "group": "Timing",
-              "extraInformation": [],
               "deprecated": true,
               "name": "ForecastHistoryDuration"
             },
@@ -32177,9 +31977,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "LogLeftwardSpeed"
             },
@@ -32187,9 +31984,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "LogRightwardSpeed"
             },
@@ -32197,9 +31991,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "LogDownwardSpeed"
             },
@@ -32207,9 +31998,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "LogUpwardSpeed"
             },
@@ -32217,9 +32005,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "DelayedCenterX"
             },
@@ -32227,9 +32012,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "DelayedCenterY"
             },
@@ -32237,9 +32019,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "ForecastHistoryMeanX"
             },
@@ -32247,9 +32026,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "ForecastHistoryMeanY"
             },
@@ -32257,9 +32033,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "ForecastHistoryVarianceX"
             },
@@ -32267,9 +32040,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "ForecastHistoryCovariance"
             },
@@ -32277,9 +32047,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "ForecastHistoryLinearA"
             },
@@ -32287,9 +32054,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "ForecastHistoryLinearB"
             },
@@ -32297,9 +32061,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "ForecastedX"
             },
@@ -32307,9 +32068,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "ForecastedY"
             },
@@ -32317,9 +32075,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "ProjectedNewestX"
             },
@@ -32327,9 +32082,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "ProjectedNewestY"
             },
@@ -32337,9 +32089,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "ProjectedOldestX"
             },
@@ -32347,9 +32096,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "ProjectedOldestY"
             },
@@ -32357,9 +32103,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "ForecastHistoryVarianceY"
             },
@@ -32367,9 +32110,6 @@
               "value": "",
               "type": "Number",
               "label": "Index (local variable)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "Index"
             },
@@ -32377,9 +32117,6 @@
               "value": "0",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "CameraDelayCatchUpSpeed"
             },
@@ -32387,9 +32124,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "CameraExtraDelay"
             },
@@ -32397,9 +32131,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "WaitingSpeedXMax"
             },
@@ -32407,9 +32138,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "WaitingSpeedYMax"
             },
@@ -32417,9 +32145,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "WaitingEnd"
             },
@@ -32427,9 +32152,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "CameraDelayCatchUpDuration"
             },
@@ -32438,9 +32160,7 @@
               "type": "Number",
               "unit": "PixelSpeed",
               "label": "Leftward maximum speed",
-              "description": "",
               "group": "Maximum speed",
-              "extraInformation": [],
               "advanced": true,
               "name": "LeftwardSpeedMax"
             },
@@ -32449,9 +32169,7 @@
               "type": "Number",
               "unit": "PixelSpeed",
               "label": "Rightward maximum speed",
-              "description": "",
               "group": "Maximum speed",
-              "extraInformation": [],
               "advanced": true,
               "name": "RightwardSpeedMax"
             },
@@ -32460,9 +32178,7 @@
               "type": "Number",
               "unit": "PixelSpeed",
               "label": "Upward maximum speed",
-              "description": "",
               "group": "Maximum speed",
-              "extraInformation": [],
               "advanced": true,
               "name": "UpwardSpeedMax"
             },
@@ -32471,9 +32187,7 @@
               "type": "Number",
               "unit": "PixelSpeed",
               "label": "Downward maximum speed",
-              "description": "",
               "group": "Maximum speed",
-              "extraInformation": [],
               "advanced": true,
               "name": "DownwardSpeedMax"
             },
@@ -32481,9 +32195,6 @@
               "value": "",
               "type": "Number",
               "label": "OldX (local variable)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "OldX"
             },
@@ -32491,9 +32202,6 @@
               "value": "",
               "type": "Number",
               "label": "OldY (local variable)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "OldY"
             },
@@ -32501,9 +32209,6 @@
               "value": "",
               "type": "Boolean",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "IsCalledManually"
             }
@@ -32736,8 +32441,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Platformer character behavior",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
@@ -32747,8 +32450,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Smooth camera behavior",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "SmoothCamera::SmoothCamera"
               ],
@@ -32758,9 +32459,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "JumpOriginY"
             },
@@ -32769,9 +32467,7 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Follow free area top in the air",
-              "description": "",
               "group": "Position",
-              "extraInformation": [],
               "name": "AirFollowFreeAreaTop"
             },
             {
@@ -32779,9 +32475,7 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Follow free area bottom in the air",
-              "description": "",
               "group": "Position",
-              "extraInformation": [],
               "name": "AirFollowFreeAreaBottom"
             },
             {
@@ -32789,9 +32483,7 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Follow free area top on the floor",
-              "description": "",
               "group": "Position",
-              "extraInformation": [],
               "name": "FloorFollowFreeAreaTop"
             },
             {
@@ -32799,45 +32491,35 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Follow free area bottom on the floor",
-              "description": "",
               "group": "Position",
-              "extraInformation": [],
               "name": "FloorFollowFreeAreaBottom"
             },
             {
               "value": "0.95",
               "type": "Number",
               "label": "Upward speed in the air (in ratio per second)",
-              "description": "",
               "group": "Catch-up speed",
-              "extraInformation": [],
               "name": "AirUpwardSpeed"
             },
             {
               "value": "0.95",
               "type": "Number",
               "label": "Downward speed in the air (in ratio per second)",
-              "description": "",
               "group": "Catch-up speed",
-              "extraInformation": [],
               "name": "AirDownwardSpeed"
             },
             {
               "value": "0.9",
               "type": "Number",
               "label": "Upward speed on the floor (in ratio per second)",
-              "description": "",
               "group": "Catch-up speed",
-              "extraInformation": [],
               "name": "FloorUpwardSpeed"
             },
             {
               "value": "0.9",
               "type": "Number",
               "label": "Downward speed on the floor (in ratio per second)",
-              "description": "",
               "group": "Catch-up speed",
-              "extraInformation": [],
               "name": "FloorDownwardSpeed"
             },
             {
@@ -32845,9 +32527,7 @@
               "type": "Number",
               "unit": "PixelSpeed",
               "label": "Upward maximum speed in the air",
-              "description": "",
               "group": "Maximum speed",
-              "extraInformation": [],
               "name": "AirUpwardSpeedMax"
             },
             {
@@ -32855,9 +32535,7 @@
               "type": "Number",
               "unit": "PixelSpeed",
               "label": "Downward maximum speed in the air",
-              "description": "",
               "group": "Maximum speed",
-              "extraInformation": [],
               "name": "AirDownwardSpeedMax"
             },
             {
@@ -32865,9 +32543,7 @@
               "type": "Number",
               "unit": "PixelSpeed",
               "label": "Upward maximum speed on the floor",
-              "description": "",
               "group": "Maximum speed",
-              "extraInformation": [],
               "name": "FloorUpwardSpeedMax"
             },
             {
@@ -32875,9 +32551,7 @@
               "type": "Number",
               "unit": "PixelSpeed",
               "label": "Downward maximum speed on the floor",
-              "description": "",
               "group": "Maximum speed",
-              "extraInformation": [],
               "name": "FloorDownwardSpeedMax"
             }
           ],
@@ -33007,18 +32681,12 @@
               "value": "0.5",
               "type": "Number",
               "label": "Parallax factor (speed for the parallax, usually between 0 and 1)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "ParallaxFactor"
             },
             {
               "value": "",
               "type": "String",
               "label": "Layer to be followed (leave empty for the base layer)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "FollowedLayer"
             }
           ],
@@ -33108,18 +32776,12 @@
               "value": "0.5",
               "type": "Number",
               "label": "Parallax factor (speed for the parallax, usually between 0 and 1)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "ParallaxFactor"
             },
             {
               "value": "",
               "type": "String",
               "label": "Layer to be followed (leave empty for the base layer)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "FollowedLayer"
             },
             {
@@ -33127,9 +32789,6 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Offset on Y axis",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "OffsetY"
             }
           ],
@@ -33713,8 +33372,6 @@
               "unit": "Dimensionless",
               "label": "Bounce count",
               "description": "Number of times this object has bounced off another object",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "BounceCount"
             }
@@ -34957,8 +34614,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Animatable capability",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "AnimatableCapability::AnimatableBehavior"
               ],
@@ -34968,8 +34623,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Top-down movement",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "TopDownMovementBehavior::TopDownMovementBehavior"
               ],
@@ -34979,18 +34632,14 @@
               "value": "true",
               "type": "Boolean",
               "label": "Scale animations according to speed",
-              "description": "",
               "group": "Animation",
-              "extraInformation": [],
               "name": "IsScalingAnimation"
             },
             {
               "value": "true",
               "type": "Boolean",
               "label": "Pause animations when objects stop",
-              "description": "",
               "group": "Animation",
-              "extraInformation": [],
               "name": "IsPausingAnimation"
             },
             {
@@ -34999,7 +34648,6 @@
               "label": "Animation name",
               "description": "Animations must be called \"Walk0\", \"Walk1\"... for left, down...",
               "group": "Animation",
-              "extraInformation": [],
               "name": "AnimationName"
             },
             {
@@ -35009,7 +34657,6 @@
               "label": "Number of directions",
               "description": "Leave to 0 to automatically use 8 when diagonals are allowed and 4 otherwise.",
               "group": "Direction",
-              "extraInformation": [],
               "name": "DirectionCount"
             },
             {
@@ -35019,16 +34666,12 @@
               "label": "Angle offset",
               "description": "Set to 90°, \"Walk0\" becomes the animation for down.",
               "group": "Direction",
-              "extraInformation": [],
               "name": "AngleOffset"
             },
             {
               "value": "0",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "AnimationDirection"
             }
@@ -35038,9 +34681,6 @@
               "value": "0",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "NewAnimationDirection"
             },
@@ -35048,9 +34688,6 @@
               "value": "0",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "AnimationFrame"
             }
@@ -36052,8 +35689,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Physics behavior",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Physics2::Physics2Behavior"
               ],
@@ -36063,8 +35698,6 @@
               "value": "Left",
               "type": "Choice",
               "label": "Mouse button",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Left",
                 "Right",
@@ -36077,36 +35710,24 @@
               "type": "Number",
               "unit": "Newton",
               "label": "Maximum force",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "MaxForce"
             },
             {
               "value": "10",
               "type": "Number",
               "label": "Frequency (Hz) ",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "Frequency"
             },
             {
               "value": "1",
               "type": "Number",
               "label": "Damping ratio (Range: 0 to 1)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "Damping"
             },
             {
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "MouseJointID"
             },
@@ -36115,8 +35736,6 @@
               "type": "Boolean",
               "label": "Enable automatic dragging",
               "description": "If automatic dragging is disabled, use the \"Start drag\" and \"Release drag\" actions.",
-              "group": "",
-              "extraInformation": [],
               "name": "EnableAutomaticDragging"
             }
           ],
@@ -36521,8 +36140,6 @@
               "value": "",
               "type": "Behavior",
               "label": "3D physics character",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Physics3D::PhysicsCharacter3D"
               ],
@@ -36532,8 +36149,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Animatable capacity",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "AnimatableCapability::AnimatableBehavior"
               ],
@@ -36543,36 +36158,28 @@
               "value": "Idle",
               "type": "String",
               "label": "\"Idle\" animation name ",
-              "description": "",
               "group": "Animation names",
-              "extraInformation": [],
               "name": "IdleAnimationName"
             },
             {
               "value": "Run",
               "type": "String",
               "label": "\"Run\" animation name",
-              "description": "",
               "group": "Animation names",
-              "extraInformation": [],
               "name": "RunAnimationName"
             },
             {
               "value": "Jump",
               "type": "String",
               "label": "\"Jump\" animation name",
-              "description": "",
               "group": "Animation names",
-              "extraInformation": [],
               "name": "JumpAnimationName"
             },
             {
               "value": "Fall",
               "type": "String",
               "label": "\"Fall\" animation name",
-              "description": "",
               "group": "Animation names",
-              "extraInformation": [],
               "name": "FallAnimationName"
             },
             {
@@ -36580,9 +36187,6 @@
               "type": "Number",
               "unit": "DegreeAngle",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "OldAngle"
             },
@@ -36591,9 +36195,6 @@
               "type": "Number",
               "unit": "AngularSpeed",
               "label": "Rotation speed",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "RotationSpeed"
             }
           ],
@@ -38856,8 +38457,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Physics Engine 2.0",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Physics2::Physics2Behavior"
               ],
@@ -38868,9 +38467,7 @@
               "type": "Number",
               "unit": "PixelAcceleration",
               "label": "Acceleration",
-              "description": "",
               "group": "Speed",
-              "extraInformation": [],
               "name": "Acceleration"
             },
             {
@@ -38878,9 +38475,7 @@
               "type": "Number",
               "unit": "PixelSpeed",
               "label": "Maximum speed",
-              "description": "",
               "group": "Speed",
-              "extraInformation": [],
               "name": "SpeedMax"
             },
             {
@@ -38890,7 +38485,6 @@
               "label": "Wheel grip ratio (from 0 to 1)",
               "description": "A ratio of 0 is like driving on ice.",
               "group": "Steering",
-              "extraInformation": [],
               "name": "WheelGripRatio"
             },
             {
@@ -38898,9 +38492,7 @@
               "type": "Number",
               "unit": "AngularSpeed",
               "label": "Steering speed",
-              "description": "",
               "group": "Steering",
-              "extraInformation": [],
               "name": "SteeringSpeed"
             },
             {
@@ -38908,9 +38500,7 @@
               "type": "Number",
               "unit": "AngularSpeed",
               "label": "Sterring speed when turning back",
-              "description": "",
               "group": "Steering",
-              "extraInformation": [],
               "name": "SteeringBackSpeed"
             },
             {
@@ -38918,9 +38508,7 @@
               "type": "Number",
               "unit": "DegreeAngle",
               "label": "Maximum steering angle",
-              "description": "",
               "group": "Steering",
-              "extraInformation": [],
               "name": "SteeringAngleMax"
             },
             {
@@ -38928,9 +38516,7 @@
               "type": "Number",
               "unit": "DegreeAngle",
               "label": "Steering angle",
-              "description": "",
               "group": "Steering",
-              "extraInformation": [],
               "hidden": true,
               "name": "SteeringAngle"
             },
@@ -38938,9 +38524,6 @@
               "value": "",
               "type": "Boolean",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "IsRightPressed"
             },
@@ -38948,9 +38531,6 @@
               "value": "",
               "type": "Boolean",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "IsLeftPressed"
             },
@@ -38958,9 +38538,6 @@
               "value": "",
               "type": "Boolean",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "IsUpPressed"
             },
@@ -38968,9 +38545,6 @@
               "value": "",
               "type": "Boolean",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "IsDownPressed"
             },
@@ -38980,7 +38554,6 @@
               "label": "Front wheels position",
               "description": "0 means at the center, 1 means at the front",
               "group": "Wheels",
-              "extraInformation": [],
               "advanced": true,
               "name": "FrontWheelsPosition"
             },
@@ -38991,7 +38564,6 @@
               "label": "Rear wheels position",
               "description": "0 means at the center, 1 means at the back",
               "group": "Wheels",
-              "extraInformation": [],
               "advanced": true,
               "name": "RearWheelsPosition"
             },
@@ -39000,9 +38572,6 @@
               "type": "Number",
               "unit": "Dimensionless",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "AccelerationStickValue"
             },
@@ -39011,9 +38580,6 @@
               "type": "Number",
               "unit": "Dimensionless",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "SteeringStickValue"
             },
@@ -39021,9 +38587,6 @@
               "value": "",
               "type": "Boolean",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "IsDebug"
             }
@@ -40446,9 +40009,6 @@
               "value": "Default message. Continue?",
               "type": "String",
               "label": "Message",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "TextMessage"
             },
             {
@@ -40457,8 +40017,6 @@
               "unit": "Dimensionless",
               "label": "Default highlighted button identifier",
               "description": "Default highlighted button identifier.",
-              "group": "",
-              "extraInformation": [],
               "deprecated": true,
               "name": "ActiveButtonById"
             },
@@ -40467,8 +40025,6 @@
               "type": "Boolean",
               "label": "Cancel with Escape key",
               "description": "Enable or disable the escape key to close the dialog.",
-              "group": "",
-              "extraInformation": [],
               "name": "EnableEscape"
             },
             {
@@ -40476,8 +40032,6 @@
               "type": "String",
               "label": "Label for the \"Yes\" button",
               "description": "This is the button with identifier 0.",
-              "group": "",
-              "extraInformation": [],
               "name": "LabelButtonID0"
             },
             {
@@ -40485,8 +40039,6 @@
               "type": "String",
               "label": "Label for the \"No\" button",
               "description": "This is the button with identifier 1.",
-              "group": "",
-              "extraInformation": [],
               "name": "LabelButtonID1"
             }
           ],
@@ -43524,8 +43076,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Platformer character behavior",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
@@ -43535,43 +43085,33 @@
               "value": "1",
               "type": "Number",
               "label": "Gamepad identifier (1, 2, 3 or 4)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "GamepadIdentifier"
             },
             {
               "value": "true",
               "type": "Boolean",
               "label": "Use directional pad",
-              "description": "",
               "group": "Controls",
-              "extraInformation": [],
               "name": "UseArrows"
             },
             {
               "value": "true",
               "type": "Boolean",
               "label": "Use left stick",
-              "description": "",
               "group": "Controls",
-              "extraInformation": [],
               "name": "UseLeftStick"
             },
             {
               "value": "",
               "type": "Boolean",
               "label": "Use right stick",
-              "description": "",
               "group": "Controls",
-              "extraInformation": [],
               "name": "UseRightStick"
             },
             {
               "value": "A or Cross",
               "type": "Choice",
               "label": "Jump button",
-              "description": "",
               "group": "Controls",
               "extraInformation": [
                 "A or Cross",
@@ -43710,8 +43250,6 @@
               "value": "",
               "type": "Behavior",
               "label": "3D physics character",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Physics3D::PhysicsCharacter3D"
               ],
@@ -43721,16 +43259,12 @@
               "value": "1",
               "type": "Number",
               "label": "Gamepad identifier (1, 2, 3 or 4)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "GamepadIdentifier"
             },
             {
               "value": "Left",
               "type": "Choice",
               "label": "Walk joystick",
-              "description": "",
               "group": "Controls",
               "extraInformation": [
                 "Left",
@@ -43742,7 +43276,6 @@
               "value": "A or Cross",
               "type": "Choice",
               "label": "Jump button",
-              "description": "",
               "group": "Controls",
               "extraInformation": [
                 "A or Cross",
@@ -43870,8 +43403,6 @@
               "value": "",
               "type": "Behavior",
               "label": "3D physics character",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Physics3D::PhysicsCharacter3D"
               ],
@@ -43881,16 +43412,12 @@
               "value": "1",
               "type": "Number",
               "label": "Gamepad identifier (1, 2, 3 or 4)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "GamepadIdentifier"
             },
             {
               "value": "Left",
               "type": "Choice",
               "label": "Walk joystick",
-              "description": "",
               "group": "Controls",
               "extraInformation": [
                 "Left",
@@ -43902,7 +43429,6 @@
               "value": "Right",
               "type": "Choice",
               "label": "Camera joystick",
-              "description": "",
               "group": "Controls",
               "extraInformation": [
                 "Left",
@@ -43914,7 +43440,6 @@
               "value": "A or Cross",
               "type": "Choice",
               "label": "Jump button",
-              "description": "",
               "group": "Controls",
               "extraInformation": [
                 "A or Cross",
@@ -44857,8 +44382,6 @@
               "value": "",
               "type": "Behavior",
               "label": "3D capability",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Scene3D::Base3DBehavior"
               ],
@@ -44868,17 +44391,12 @@
               "value": "1",
               "type": "Number",
               "label": "Gamepad identifier (1, 2, 3 or 4)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "GamepadIdentifier"
             },
             {
               "value": "Right",
               "type": "Choice",
               "label": "Camera joystick",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Left",
                 "Right"
@@ -44890,27 +44408,21 @@
               "type": "Number",
               "unit": "AngularSpeed",
               "label": "Maximum rotation speed",
-              "description": "",
               "group": "Horizontal rotation",
-              "extraInformation": [],
               "name": "HorizontalRotationSpeedMax"
             },
             {
               "value": "360",
               "type": "Number",
               "label": "Rotation acceleration",
-              "description": "",
               "group": "Horizontal rotation",
-              "extraInformation": [],
               "name": "HorizontalRotationAcceleration"
             },
             {
               "value": "720",
               "type": "Number",
               "label": "Rotation deceleration",
-              "description": "",
               "group": "Horizontal rotation",
-              "extraInformation": [],
               "name": "HorizontalRotationDeceleration"
             },
             {
@@ -44918,27 +44430,21 @@
               "type": "Number",
               "unit": "AngularSpeed",
               "label": "Maximum rotation speed",
-              "description": "",
               "group": "Vertical rotation",
-              "extraInformation": [],
               "name": "VerticalRotationSpeedMax"
             },
             {
               "value": "240",
               "type": "Number",
               "label": "Rotation acceleration",
-              "description": "",
               "group": "Vertical rotation",
-              "extraInformation": [],
               "name": "VerticalRotationAcceleration"
             },
             {
               "value": "480",
               "type": "Number",
               "label": "Rotation deceleration",
-              "description": "",
               "group": "Vertical rotation",
-              "extraInformation": [],
               "name": "VerticalRotationDeceleration"
             },
             {
@@ -44946,9 +44452,7 @@
               "type": "Number",
               "unit": "DegreeAngle",
               "label": "Minimum angle",
-              "description": "",
               "group": "Vertical rotation",
-              "extraInformation": [],
               "name": "VerticalAngleMin"
             },
             {
@@ -44956,9 +44460,7 @@
               "type": "Number",
               "unit": "DegreeAngle",
               "label": "Maximum angle",
-              "description": "",
               "group": "Vertical rotation",
-              "extraInformation": [],
               "name": "VerticalAngleMax"
             },
             {
@@ -44966,9 +44468,7 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Z position offset",
-              "description": "",
               "group": "Position",
-              "extraInformation": [],
               "name": "OffsetZ"
             },
             {
@@ -44976,9 +44476,6 @@
               "type": "Number",
               "unit": "AngularSpeed",
               "label": "Current rotation speed Z",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "CurrentRotationSpeedZ"
             },
@@ -44987,9 +44484,6 @@
               "type": "Number",
               "unit": "AngularSpeed",
               "label": "Current rotation speed Y",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "CurrentRotationSpeedY"
             }
@@ -45289,8 +44783,6 @@
               "value": "",
               "type": "Behavior",
               "label": "3D physics car",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Physics3D::PhysicsCar3D"
               ],
@@ -45300,43 +44792,33 @@
               "value": "1",
               "type": "Number",
               "label": "Gamepad identifier (1, 2, 3 or 4)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "GamepadIdentifier"
             },
             {
               "value": "true",
               "type": "Boolean",
               "label": "Use directional pad",
-              "description": "",
               "group": "Controls",
-              "extraInformation": [],
               "name": "UseArrows"
             },
             {
               "value": "true",
               "type": "Boolean",
               "label": "Use left stick",
-              "description": "",
               "group": "Controls",
-              "extraInformation": [],
               "name": "UseLeftStick"
             },
             {
               "value": "",
               "type": "Boolean",
               "label": "Use right stick",
-              "description": "",
               "group": "Controls",
-              "extraInformation": [],
               "name": "UseRightStick"
             },
             {
               "value": "B or Circle",
               "type": "Choice",
               "label": "Hand brake button",
-              "description": "",
               "group": "Controls",
               "extraInformation": [
                 "A or Cross",
@@ -45940,8 +45422,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Top-down movement behavior",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "TopDownMovementBehavior::TopDownMovementBehavior"
               ],
@@ -45951,43 +45431,33 @@
               "value": "1",
               "type": "Number",
               "label": "Gamepad identifier (1, 2, 3 or 4)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "GamepadIdentifier"
             },
             {
               "value": "true",
               "type": "Boolean",
               "label": "Use directional pad",
-              "description": "",
               "group": "Controls",
-              "extraInformation": [],
               "name": "UseArrows"
             },
             {
               "value": "true",
               "type": "Boolean",
               "label": "Use left stick",
-              "description": "",
               "group": "Controls",
-              "extraInformation": [],
               "name": "UseLeftStick"
             },
             {
               "value": "",
               "type": "Boolean",
               "label": "Use right stick",
-              "description": "",
               "group": "Controls",
-              "extraInformation": [],
               "name": "UseRightStick"
             },
             {
               "value": "Analog",
               "type": "Choice",
               "label": "Stick mode",
-              "description": "",
               "group": "Controls",
               "extraInformation": [
                 "Analog",
@@ -47122,8 +46592,6 @@
               "type": "Boolean",
               "label": "",
               "description": "Should check hovering",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "ShouldCheckHovering"
             },
@@ -47131,8 +46599,6 @@
               "value": "Idle",
               "type": "Choice",
               "label": "State",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Idle",
                 "Hovered",
@@ -47147,9 +46613,6 @@
               "value": "0",
               "type": "Number",
               "label": "Touch id",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "TouchId"
             },
@@ -47157,9 +46620,6 @@
               "value": "",
               "type": "Boolean",
               "label": "Touch is inside",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "TouchIsInside"
             },
@@ -47167,9 +46627,6 @@
               "value": "",
               "type": "Boolean",
               "label": "Mouse is inside",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "MouseIsInside"
             },
@@ -47177,9 +46634,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "Index"
             }
@@ -48672,16 +48126,12 @@
               "value": "0",
               "type": "Number",
               "label": "Label offset on Y axis when pressed",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "PressedLabelOffsetY"
             },
             {
               "value": "0",
               "type": "Number",
               "label": "Left padding",
-              "description": "",
               "group": "Padding",
               "extraInformation": [
                 "Label"
@@ -48692,7 +48142,6 @@
               "value": "0",
               "type": "Number",
               "label": "Right padding",
-              "description": "",
               "group": "Padding",
               "extraInformation": [
                 "Label"
@@ -48703,7 +48152,6 @@
               "value": "0",
               "type": "Number",
               "label": "Top padding",
-              "description": "",
               "group": "Padding",
               "extraInformation": [
                 "Label"
@@ -48714,7 +48162,6 @@
               "value": "0",
               "type": "Number",
               "label": "Bottom padding",
-              "description": "",
               "group": "Padding",
               "extraInformation": [
                 "Label"
@@ -48725,9 +48172,6 @@
               "value": "0.25",
               "type": "Number",
               "label": "Hovered fade out duration (in seconds)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "HoveredFadeOutDuration"
             }
           ],
@@ -48879,18 +48323,12 @@
               "value": "",
               "type": "Number",
               "label": "Maximum speed (pixels/second)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "MaximumSpeed"
             },
             {
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "CurrentSpeedX"
             },
@@ -48898,9 +48336,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "CurrentSpeedY"
             },
@@ -48908,9 +48343,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "CurrentSpeed"
             }
@@ -48991,8 +48423,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Physics Behavior (required)",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Physics2::Physics2Behavior"
               ],
@@ -49002,9 +48432,6 @@
               "value": "",
               "type": "Number",
               "label": "Maximum speed (pixels/second)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "MaximumSpeed"
             }
           ],
@@ -49072,8 +48499,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Physics Behavior (required)",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Physics2::Physics2Behavior"
               ],
@@ -49083,9 +48508,6 @@
               "value": "",
               "type": "Number",
               "label": "Maximum rotation speed (degrees/second)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "MaximumRotationSpeed"
             }
           ],

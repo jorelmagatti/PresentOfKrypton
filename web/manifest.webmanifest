@@ -2,7 +2,7 @@
   "name": "Present of Kripton",
   "short_name": "Present of Kripton",
   "id": "com.joreldev.presentOfKrypton",
-  "description": "The minigame about new member in Magatti family",
+  "description": "A minigame about new member in Magatti family",
   "orientation": "landscape",
   "start_url": "./index.html",
   "display": "standalone",
